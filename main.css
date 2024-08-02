@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;    
+}
+
+.container_header{
+    background-color: aquamarine;
+}
+
+.container_header img{
+    width: 4%;
+    border-radius: 50%;
+}
+
+.titulo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.container-nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    padding: 1%;
+    margin: 0 20%;
+}
+
+.container-nav ul li a{
+    color: red;
+    font-size: 20px;
+}
