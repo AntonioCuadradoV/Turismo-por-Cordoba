@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    list-style: none;
-    overflow: hidden;    
+    list-style: none;  
+    font-family: "Playwrite DK Uloopet", cursive;
 }
 
 .container_header{
@@ -18,19 +18,41 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 2% 0;
+    padding-top: 1%;
+
 }
 
 .container-nav ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: beige;
-    padding: 1%;
-    margin: 0 20%;
 }
 
 .container-nav ul li a{
     color: red;
     font-size: 20px;
+}
+
+/* ----------------------------------------estilos para la seccion de lugares populares---------------------------------------- */
+
+.container-lugares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+
+.item-lugar{
+    text-align: center;
+}
+
+.item-lugar img{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.item-lugar p{
+    padding: 3% 60px;
 }
