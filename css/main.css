@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;  
+    font-family: "Playwrite DK Uloopet", cursive;
+}
+
+body{
+    width: 90%;
+    margin: auto;
+}
+
+.container_header{
+    background-color: #baddec;
+}
+
+.container_header img{
+    width: 4%;
+    border-radius: 50%;
+}
+
+.titulo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 8%;
+}
+
+.menu{
+    margin-top: 1%;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E6B9A6;
+}
+
+.menu ul li{
+    margin: 1% 0;
+}
+
+.menu ul li a{
+    color: #2F3645;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* ----------------------------------------estilos para la seccion del carrusel---------------------------------------- */
+
+.container-carrusel{
+    margin-top: 2%;
+}
+.carousel-inner img{
+    object-fit: cover;
+    width: 80%;
+    height: 700px;
+}
+.carousel-inner h5{
+    color: #000000;
+    font-size: 20PX;
+    background-color: #baddec;
+    margin: 0 41%;
+
+}
+
+
+/* ----------------------------------------estilos para la seccion de lugares populares---------------------------------------- */
+
+
+.container-lugares-populares{
+    margin-top: 2%;
+}
+
+.container-lugares-populares h2{
+    font-size: 30px;
+    color: #C38154;
+}
+
+.container-de-lugares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.item-lugar{
+    text-align: center;
+}
+
+.item-lugar h3{
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+.item-lugar img{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.item-lugar p{
+    padding: 2% 50px;
+    font-size: large;
+}
+
+/* ----------------------------------------estilos para la seccion de escapadas---------------------------------------- */
+
