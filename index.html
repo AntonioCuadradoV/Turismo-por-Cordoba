@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>Document</title>
 </head>
 
@@ -16,32 +17,30 @@
 
     <header class="container_header">
         <nav class="comtainer-nav">
-            <div class="titulo">
-                <img src="Imagenes/logo.jpeg" alt="Mapa de Argentina">
-                <h1>Lugares para visitar en Argentina</h1>
+            <img src="imagenes/logo.jpeg" alt="Mapa de Argentina">
+            <div>
+                <h1>Explorando Argentina</h1>
             </div>
-            <div class="menu">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./paginas/lugares-populares.html">Lugares populares</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Escapadas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Campings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Atracciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Alojaminetos</a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#lugares-populares">Lugares populares</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#escapadas">Escapadas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Campings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Atracciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Alojaminetos</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
@@ -60,21 +59,21 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./Imagenes/Cataratas-del-iguazu.jpg" class="d-block w-100" alt="Cataratas del iguazu">
-                        <div class="carousel-caption d-none d-md-block descripcion">
+                        <img src="./imagenes/Cataratas-del-iguazu.jpg" class="d-block w-100" alt="Cataratas del iguazu">
+                        <div class="carousel-caption d-none d-md-block">
                             <h5>Cataratas Del Iguazu</h5>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./Imagenes/perito-moreno-glacier.jpg" class="d-block w-100"
+                        <img src="./imagenes/perito-moreno-glacier.jpg" class="d-block w-100"
                             alt="glaciar perito moreno">
-                        <div class="carousel-caption d-none d-md-block descripcion-2">
+                        <div class="carousel-caption d-none d-md-block">
                             <h5>Perito Moreno</h5>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./Imagenes/JardimJapones.jpg" class="d-block w-100" alt="Las ruinas de San Ignacio">
-                        <div class="carousel-caption d-none d-md-block descripcion-3">
+                        <img src="./imagenes/JardimJapones.jpg" class="d-block w-100" alt="Las ruinas de San Ignacio">
+                        <div class="carousel-caption d-none d-md-block">
                             <h5>Jardin Japones</h5>
                         </div>
                     </div>
@@ -93,14 +92,14 @@
         </section>
 
         <!-- Lugares populares -->
-        <section class="container-lugares-populares">
+        <section id="lugares-populares" class="container-lugares-populares">
             <div>
                 <h2>Lugares populares de Córdoba - Argentina</h2>
             </div>
             <div class="container-de-lugares">
                 <div class="item-lugar firs-lugar">
                     <h3>El Durazno</h3>
-                    <img src="./Imagenes/El durazno.jpg" alt="El Durazno">
+                    <img src="./imagenes/El durazno.jpg" alt="El Durazno">
                     <p>Distinguida por su río de aguas cristalinas y frías, El Durazno ofrece playas y ollas profundas
                         para
                         nadar, restaurantes y una pintoresca casa de té en medio de un paisaje para contemplar.
@@ -108,13 +107,13 @@
                 </div>
                 <div class="item-lugar second-lugar">
                     <h3>Icho Cruz</h3>
-                    <img src="./Imagenes/Icho cruz.jpg" alt="Icho Cruz">
+                    <img src="./imagenes/Icho cruz.jpg" alt="Icho Cruz">
                     <p>Con playas de arena, senderos serranos y un microclima especial para diversas actividades al aire
                         libre, Icho Cruz es para disfrutar en familia o con amigos en pleno Valle de Punilla.</p>
                 </div>
                 <div class="item-lugar three-lugar">
                     <h3>Los Terrones</h3>
-                    <img src="./Imagenes/los terrones.jpg" alt="Los terrones">
+                    <img src="./imagenes/los terrones.jpg" alt="Los terrones">
                     <p>Una obra maestra de la naturaleza. Un lugar con grandes y profundos “cañadones”, rocas
                         anaranjadas y
                         amarillas, que le dan un marco único a la paleta de colores que se registra visualmente. </p>
@@ -122,8 +121,94 @@
             </div>
         </section>
 
+        <!-- Escapadas -->
+
+        <section id="escapadas" class="container-escapadas">
+            <div>
+                <h2>Escapadas por Córdoba</h2>
+            </div>
+            <div class="container__item--escapadas">
+                <h3>Villa Carlos Paz</h3>
+                <div class="item-escapadas">
+                    <img src="./imagenes/Carlos paz.webp" alt="Villa-Carlos-Paz">
+                    <img src="./imagenes/carlos-paz2.jpg" alt="">
+                    <p>Ofrece miradores para observar espectaculares vistas panorámicas, mucha
+                        vida
+                        nocturna, pequeñas playitas con hermosas aguas para disfrutar y un lago especialmente
+                        destinado para
+                        realizar deportes acuáticos o pasear en catamarán.</p>
+                </div>
+                <h3>Tanti</h3>
+                <div class="item-escapadas">
+                    <img src="./imagenes/tanti.jpg" alt="Tanti">
+                    <img src="./imagenes/tanti2.jpeg" alt="Rio">
+                    <p>Es elegido por muchos turistas por sus reservas naturales y paseos en
+                        la
+                        montaña. Además, su arroyo
+                        de aguas cristalinas conforma 12 balnearios para el disfrute y descanso con familia y
+                        amigos.
+                        Algunas de las actividades que no se pueden perder en este pueblo son el recorrido por
+                        el
+                        bosque
+                        serrano hasta la cascada en la Reserva de los Chorrillos, caminar hasta Piedras Lisas y
+                        al
+                        Pozo del
+                        Indio, dos paseos ideales para encontrar ollas de agua y otras cascadas.</p>
+                </div>
+                <h3>La Cumbre</h3>
+                <div class="item-escapadas">
+                    <img src="./imagenes/la-cumbre.jpg" alt="La-cumbre">
+                    <img src="./imagenes/buen-cauda-cumbre.jpg" alt="buen-cauda-cumbre">
+                    <p>Su entorno natural mezclado con su gran propuesta gastronómica, oferta
+                        hotelera y variedad de
+                        actividades y paseos harán de su fin de semana en La Cumbre uno que valdrá la pena de
+                        verdad:
+                        visitar museos y capillas, hacer trekking, caminar por los hermosos paisajes serranos
+                        hasta
+                        Cruz
+                        Chica y Cruz Grande, cabalgatas, cicloturismo, paracaidismo, visitar viñedos y tomar el
+                        té a
+                        la
+                        tarde.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Compañia</h4>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Nuestros Servicios</a></li>
+                        <li><a href="#">Politica de privacidad</a></li>
+                        <li><a href="#">Afiliados</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Compañia</h4>
+                    <ul>
+                        <li><a href="#">Preguntas</a></li>
+                        <li><a href="#">Contactanos</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
