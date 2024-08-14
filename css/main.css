@@ -6,7 +6,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-@media screen and (min-width: 320px){
+@media screen and (min-width: 320px) {
     /* ----------------------------------------estilos para la seccion mobile del menu---------------------------------------- */
 
     .container_header {
@@ -21,7 +21,7 @@
         border-radius: 50%;
     }
 
-    .navbar-toggler{
+    .navbar-toggler {
         padding: 0;
     }
 
@@ -97,13 +97,13 @@
 
     /* ----------------------------------------estilos para la seccion mobile de escapadas---------------------------------------- */
 
-    .container__escapadas{
+    .container__escapadas {
         margin-top: 2%;
         width: 80%;
         margin: 0 auto;
     }
 
-    .container__escapadas h2{
+    .container__escapadas h2 {
         padding-top: 15px;
         font-size: 20px;
         color: #C38154;
@@ -134,7 +134,7 @@
 
     /* ----------------------------------------estilos para la seccion mobile de footer---------------------------------------- */
 
-    .container__footer{
+    .container__footer {
         margin: 0 auto;
         text-transform: capitalize;
     }
@@ -228,7 +228,7 @@
         padding-top: 30px;
     }
 
-    .container__lugares h3{
+    .container__lugares h3 {
         font-size: large;
     }
 
@@ -256,19 +256,23 @@
         padding-top: 15px;
         font-size: small;
     }
-    
+
     .container__lugares span {
         display: block;
         padding-top: 15px;
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px){ 
+/* Nueva resolucion de 426px a 768px */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+    /* Menu nav */
     .container_header img {
         width: 7%;
     }
 
-    .navbar-toggler{
+    .navbar-toggler {
         padding: 5px;
     }
 
@@ -276,38 +280,43 @@
         font-size: 25px;
     }
 
-    .navbar-nav{
+    .navbar-nav {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-direction: row;
     }
 
+    /* Carrusel */
     .carousel-inner img {
-        object-fit: cover;
         height: 45vh;
     }
 
+    /* Lugares populares */
+
     .item-lugar img {
-        width: 90%;
-        height: 40vh;
-        object-fit: cover;
+        width: 70%;
+        height: 30vh;
     }
 
     .item-lugar p {
-        width: 90%;
+        width: 70%;
         margin: 0 auto;
     }
 
+    /* escapadas */
+
     .item-escapadas img {
-        width: 90%;
+        width: 70%;
         height: 40vh;
     }
 
     .item-escapadas p {
-        width: 90%;
+        width: 70%;
         margin: 0 auto;
     }
+
+    /* Lugares por conocer */
 
     .titulo__lugares--porconcer {
         width: 70%;
@@ -318,16 +327,157 @@
         height: 40vh;
     }
 
-    .container__fotos{
+    .container__fotos {
         margin-top: 20px;
     }
+
     .container__fotos img {
         width: 35%;
         height: 18vh;
     }
 
     .container__lugares p {
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
     }
 }
+
+
+/* Nueva resolucion de 768px a 1024px */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* Menu nav */
+
+    .navbar-collapse {
+        margin-top: 0;
+
+    }
+
+    .container_header img {
+        width: 5%;
+    }
+
+    .navbar h1 {
+        margin: 0;
+        padding-left: 10px;
+        font-size: 23px;
+    }
+
+    .navbar ul {
+        padding-left: 2rem;
+    }
+
+    /* carusel */
+
+    .carousel-inner img {
+        height: 45vh;
+    }
+
+    /* Lugares populares */
+
+    .container__lugares--populares{
+        width: 100%;
+    }
+    .container__lugares--populares h2{
+        font-size: x-large;
+        margin-left: 2%;
+    }
+
+    .container-de-lugares{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .item-lugar{
+        padding: 1rem;
+    }
+
+    .item-lugar h3{
+        font-size: large;
+    }
+
+    .item-lugar img {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .item-lugar p {
+        width: 100%;
+        font-size: smaller;
+    }
+
+    /* escapadas */
+
+    .container__escapadas{
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    .container__escapadas h2{
+        font-size: x-large;
+        margin-left: 2%;
+        padding-top: 0;
+    }
+
+    .container__item--escapadas h3{
+        text-align: center;
+        margin: 2%;
+        text-decoration: underline;
+        
+    }
+
+    .item-escapadas{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .item-escapadas img{
+        width: 25%;        
+    }
+
+    .item-escapadas p {
+        width: 42%;
+        font-size: smaller;
+        text-align: center;
+    }
+
+    /* lugares por conocer */
+
+    .titulo__lugares--porconcer {
+        width: 50%;
+    }
+
+    .container__lugares img {
+        width: 69%;
+        height: 50vh;
+    }
+
+    .container__fotos img {
+        width: 35%;
+        height: 25vh;
+    }
+
+    .container__lugares p {
+        width: 69%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
