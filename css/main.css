@@ -810,5 +810,22 @@
     .escapadas__col .col-md-4{
         width: 50%;
     }
+    
+    /* campings */
+
+    .container__campings{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .container__campings h2{
+        margin: 2% 0;
+        text-align: center;
+    }
+
+    .container__campings img{
+        height: 15em;
+        object-fit: cover;
+    }
 }
 
