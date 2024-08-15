@@ -262,91 +262,6 @@
     }
 }
 
-@media screen and (min-width: 540px) and (orientation: landscape) {
-
-    /* menu */
-    .navbar img{
-        width: 8%;
-    }
-    
-    .navbar h1{
-        font-size: 2em;
-        margin-bottom: 0;
-    }
-
-    .navbar-toggler{
-        padding: 1vh;
-    }
-
-    /* carrusel */
-    .container-carrusel{
-        width: 90%;
-        margin: 0 auto; 
-    }
-
-    .container-carrusel img{
-        height: 18em;
-        margin-top: 2%;
-    }
-
-    /* lugares populares */
-    .container-de-lugares{
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .item-lugar img{
-        width: 80%;
-        height: 15em;
-    }
-
-    .item-lugar p{
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    /* Escapadas */
-    .container__escapadas{
-        width: 90%;
-    }
-
-    .item-escapadas img{
-        width: 60%;
-        height: 15em;
-    }
-
-    .item-escapadas p{
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    /* lugare por conocer */
-
-    .titulo__lugares--porconcer{
-        width: 70%;
-    }
-
-    .container__lugares--cba{
-        width: 70%;
-    }
-
-    .container__lugares img{
-        width: 80%;
-        height: 15em;
-    }
-
-    .container__lugares p{
-        width: 80%;
-        margin: 0 auto;
-    }
-    .container__fotos img{
-        width: 40%;
-        height: 8em;
-    }
-
-
-}
-
 /* Nueva resolucion de 768px */
 
 @media screen and (min-width: 768px) {
@@ -431,6 +346,101 @@
         width: 60%;
         margin: 0 auto;
     }
+}
+
+
+@media screen and (min-width: 800px) and (orientation: landscape) {
+
+    /* menu */
+    
+    .navbar h1{
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+
+    .navbar-toggler{
+        padding: 1vh;
+    }
+
+    /* carrusel */
+    .container-carrusel{
+        width: 90%;
+        margin: 0 auto; 
+    }
+
+    .container-carrusel img{
+        height: 20em;
+    }
+
+    /* lugares populares */
+
+    .container__lugares--populares{
+        width: 90%;
+    }
+    .container-de-lugares{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .item-lugar h3{
+        font-size: large;
+        padding-top: 2%;
+    }
+
+    .item-lugar img{
+        width: 80%;
+        height: 15em;
+    }
+
+    .item-lugar p{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Escapadas */
+    .container__escapadas{
+        width: 90%;
+    }
+
+    .container__item--escapadas h3{
+        font-size: large;
+    }
+
+    .item-escapadas img{
+        width: 60%;
+        height: 15em;
+    }
+
+    .item-escapadas p{
+        width: 60%;
+        margin: 0 auto;
+        font-size: medium;
+    }
+
+    /* lugare por conocer */
+
+    .titulo__lugares--porconcer{
+        width: 70%;
+    }
+
+    .container__lugares--cba{
+        width: 70%;
+    }
+
+    .container__lugares img{
+        width: 80%;
+        height: 15em;
+    }
+
+    .container__lugares p{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .container__fotos img{
+        width: 40%;
+        height: 8em;
+    }
+
 }
 
 
@@ -690,26 +700,29 @@
 @media screen and (min-width: 1920px){
 
     /* menu */
+    .container-fluid{
+        width: 90%;
+    }
     
     .navbar h1{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .navbar-collapse ul li{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 0 2.5rem;
+        padding: 0 2rem;
     }
 
     .navbar-collapse ul li a{
         font-size: x-large;
-        margin-bottom: 15px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .nav-item a:hover{
-        font-size: 28px;
+        color: brown;
+        font-size: 25px;
         font-weight: 500;
         border-bottom: 4px solid #e7e7e7;
         padding-bottom: 5px;
