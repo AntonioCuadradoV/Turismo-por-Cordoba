@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -759,8 +759,6 @@
 
     /* lugares por conocer */
 
-
-
     .titulo__lugares--porconcer p{
         width: 80%;
         margin: 0 auto;
@@ -776,4 +774,41 @@
     .container__lugares p {
         font-size: large;
     }
+
+
+    /* estilos para alojamiento */
+    .alojamientos{
+        margin-top: 2%;
+        margin: 0 auto;
+    }
+
+    .alojamientos h2{
+        margin: 3% 0;
+        text-align: center;
+    }
+
+    .alojamientos img{
+        height: 100%;
+    }
+    
+    /* Escapadas del finde */
+    .escapadas{
+        margin-top: 2%;
+    }
+
+    .escapadas h2{
+        margin: 3% 0;
+        text-align: center;
+    }
+
+    .escapadas img{
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .escapadas__col .col-md-4{
+        width: 50%;
+    }
 }
+
