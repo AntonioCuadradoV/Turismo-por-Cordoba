@@ -1,9 +1,13 @@
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     font-family: "Open Sans", sans-serif;
+}
+
+h5{
+    font-weight: bold;
 }
 
 @media screen and (min-width: 320px) {
@@ -352,66 +356,67 @@
 @media screen and (min-width: 800px) and (orientation: landscape) {
 
     /* menu */
-    
-    .navbar h1{
+
+    .navbar h1 {
         font-size: 2em;
         margin-bottom: 0;
     }
 
-    .navbar-toggler{
+    .navbar-toggler {
         padding: 1vh;
     }
 
     /* carrusel */
-    .container-carrusel{
+    .container-carrusel {
         width: 90%;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
 
-    .container-carrusel img{
+    .container-carrusel img {
         height: 20em;
     }
 
     /* lugares populares */
 
-    .container__lugares--populares{
+    .container__lugares--populares {
         width: 90%;
     }
-    .container-de-lugares{
+
+    .container-de-lugares {
         width: 80%;
         margin: 0 auto;
     }
 
-    .item-lugar h3{
+    .item-lugar h3 {
         font-size: large;
         padding-top: 2%;
     }
 
-    .item-lugar img{
+    .item-lugar img {
         width: 80%;
         height: 15em;
     }
 
-    .item-lugar p{
+    .item-lugar p {
         width: 80%;
         margin: 0 auto;
     }
 
     /* Escapadas */
-    .container__escapadas{
+    .container__escapadas {
         width: 90%;
     }
 
-    .container__item--escapadas h3{
+    .container__item--escapadas h3 {
         font-size: large;
     }
 
-    .item-escapadas img{
+    .item-escapadas img {
         width: 60%;
         height: 15em;
     }
 
-    .item-escapadas p{
+    .item-escapadas p {
         width: 60%;
         margin: 0 auto;
         font-size: medium;
@@ -419,24 +424,25 @@
 
     /* lugare por conocer */
 
-    .titulo__lugares--porconcer{
+    .titulo__lugares--porconcer {
         width: 70%;
     }
 
-    .container__lugares--cba{
+    .container__lugares--cba {
         width: 70%;
     }
 
-    .container__lugares img{
+    .container__lugares img {
         width: 80%;
         height: 15em;
     }
 
-    .container__lugares p{
+    .container__lugares p {
         width: 80%;
         margin: 0 auto;
     }
-    .container__fotos img{
+
+    .container__fotos img {
         width: 40%;
         height: 8em;
     }
@@ -580,11 +586,11 @@
         margin-top: 5%;
     }
 
-    .footer-links h4{
+    .footer-links h4 {
         font-size: large;
     }
 
-    .footer-links a{
+    .footer-links a {
         font-size: 20px;
     }
 }
@@ -697,30 +703,30 @@
     }
 }
 
-@media screen and (min-width: 1920px){
+@media screen and (min-width: 1920px) {
 
     /* menu */
-    .container-fluid{
+    .container-fluid {
         width: 90%;
     }
-    
-    .navbar h1{
+
+    .navbar h1 {
         font-size: 30px;
     }
 
-    .navbar-collapse ul li{
+    .navbar-collapse ul li {
         display: flex;
         justify-content: space-around;
         align-items: center;
         padding: 0 2rem;
     }
 
-    .navbar-collapse ul li a{
+    .navbar-collapse ul li a {
         font-size: x-large;
         font-size: 20px;
     }
 
-    .nav-item a:hover{
+    .nav-item a:hover {
         color: brown;
         font-size: 25px;
         font-weight: 500;
@@ -730,18 +736,21 @@
     }
 
     /* main */
-    main{
+    main {
         width: 80%;
         margin: 0 auto;
     }
-    .container-carrusel h5{
-        font-size: x-large;
+
+    .container-carrusel h5 {
+        font-size: large;
         text-align: center;
+        font-weight: bolder;
+        width: 20%;
     }
 
     /* lugares populares */
 
-    .container__lugares--populares h2{
+    .container__lugares--populares h2 {
         margin-top: 2%;
     }
 
@@ -752,80 +761,152 @@
 
     /* escapadas */
 
-    .item-escapadas p{
+    .item-escapadas p {
         font-size: 20px;
         padding-left: 2rem;
     }
 
     /* lugares por conocer */
 
-    .titulo__lugares--porconcer p{
+    .titulo__lugares--porconcer p {
         width: 80%;
         margin: 0 auto;
         padding-top: 15px;
         font-size: 20px;
     }
 
-    .container__lugares h3{
+    .container__lugares h3 {
         font-size: xx-large;
         padding-bottom: 1rem;
     }
-    
+
     .container__lugares p {
         font-size: large;
     }
 
-
     /* estilos para alojamiento */
-    .alojamientos{
+
+    .main__alojamiento{
+        width: 95%;
+    }
+
+    .alojamientos {
         margin-top: 2%;
         margin: 0 auto;
     }
 
-    .alojamientos h2{
+    .alojamientos,
+    .container {
+        max-width: 100%;
+    }
+
+    .alojamientos
+    .col-sm-2 {
+        width: 10%;
+        border-right: solid 2px #000;
+    }
+
+    .alojamientos
+    .col-sm-10{
+        width: 88%;
+        margin-left: 2%;
+    }
+
+    .alojamientos
+    .col-md-4{
+        margin-bottom: 10%;
+        width: 100%;
+    }
+
+    .alojamientos a{
+        text-decoration: none;
+        color: #2F3645;
+        font-size: medium;
+    }
+
+    .alojamientos a:hover{
+        color: #C38154;
+    }
+    }
+
+    .alojamientos h2 {
         margin: 3% 0;
         text-align: center;
     }
 
-    .alojamientos img{
+    .alojamientos img {
         height: 100%;
     }
-    
+
     /* Escapadas del finde */
-    .escapadas{
+    .escapadas {
         margin-top: 2%;
     }
 
-    .escapadas h2{
+    .escapadas
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .escapadas
+    .col-sm-3{
+        width: 13%;
+        padding: 0;
+        border-right: solid 2px black;
+    }
+
+    .escapadas
+    .col-sm-9{
+        width: 85%;
+        margin-left: 2%;
+    }
+
+    .escapadas
+    .col-md-12{
+        margin-bottom: 5%;
+    }
+
+    .escapadas h2 {
         margin: 3% 0;
         text-align: center;
     }
 
-    .escapadas img{
+    .escapadas a{
+        text-decoration: none;
+        color: #2F3645;
+        font-size: medium;
+    }
+
+    .escapadas a:hover{
+        color: #C38154;
+    }
+
+    .escapadas img {
         height: 100%;
         object-fit: cover;
         width: 100%;
     }
 
-    .escapadas__col .col-md-4{
+    .escapadas__col .col-md-4 {
         width: 50%;
     }
-    
+
     /* campings */
 
-    .container__campings{
+    .container__campings {
         width: 80%;
         margin: 0 auto;
     }
 
-    .container__campings h2{
+    .container__campings h2 {
         margin: 2% 0;
         text-align: center;
     }
 
-    .container__campings img{
+    .container__campings img {
         height: 15em;
         object-fit: cover;
     }
 }
-
