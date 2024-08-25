@@ -1,0 +1,75 @@
+.container__lugares--populares {
+    margin-top: 2%;
+
+    h2 {
+        padding-top: 15px;
+        font-size: 20px;
+        color: #C38154;
+    }
+
+    .container-de-lugares {
+        margin: 2%;
+
+        .item-lugar {
+            text-align: center;
+
+            h3 {
+                font-size: medium;
+                margin-bottom: 15px;
+            }
+
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+
+            p {
+                text-align: left;
+                padding: 5% 0;
+                font-size: medium;
+            }
+        }
+    }
+}
+
+
+//estilos para la seccion mobile de escapadas
+
+
+.container__escapadas {
+    margin: 2%;
+
+    h2 {
+        padding-top: 15px;
+        font-size: 20px;
+        color: #C38154;
+    }
+
+    .container__item--escapadas {
+
+        h3 {
+            text-align: center;
+            margin-top: 5%;
+            font-size: medium;
+            color: rgb(133, 189, 226);
+        }
+
+        .item-escapadas {
+            text-align: center;
+
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                padding-top: 20px;
+            }
+
+            p {
+                padding-top: 10px;
+                text-align: left;
+                font-size: 15px;
+            }
+        }
+    }
+}

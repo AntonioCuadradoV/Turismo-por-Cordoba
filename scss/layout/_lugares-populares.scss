@@ -1,0 +1,60 @@
+.titulo__lugares--porconcer {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 13px;
+        margin-top: 3%;
+        margin-bottom: 0;
+    }
+}
+
+
+.container__lugares--cba {
+    margin: 2%;
+
+    .container__lugares {
+        text-align: center;
+        padding-top: 30px;
+
+        h3 {
+            font-size: large;
+        }
+
+        img {
+            width: 100%;
+            height: 26vh;
+        }
+
+        .container__fotos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5%;
+
+            img {
+                width: 50%;
+                height: 13vh;
+                object-fit: cover;
+                padding: 0 3px 0 3px;
+            }
+        }
+
+        p {
+            text-align: left;
+            padding-top: 15px;
+            font-size: small;
+        }
+
+        span {
+            display: block;
+            padding-top: 15px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.container_header {
+    background-color: #E6B9A6;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    .navbar {
+        background-color: #E6B9A6;
+        padding: 1% 0;
+
+        img {
+            width: 13%;
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+
+        .navbar-toggler {
+            padding: 0;
+        }
+    }
+
+    .navbar-collapse {
+        margin-top: 5%;
+
+        ul {
+            li {
+                a {
+                    color: #2F3645;
+                    font-size: 16px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
