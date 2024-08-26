@@ -1,0 +1,119 @@
+@media screen and (min-width: 768px) {
+
+    /* Menu nav */
+    .container_header {
+
+        .navbar {
+
+            img {
+                width: 7%;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            .navbar-toggler {
+                padding: 2vh;
+            }
+
+            .navbar-nav {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: row;
+            }
+        }
+    }
+
+    /* Carrousel */
+    .container-carrusel {
+        .carousel-inner {
+
+            img {
+                height: 45vh;
+            }
+
+            h5 {
+                color: #000000;
+                font-size: medium;
+                background-color: #baddec;
+                width: 30%;
+                margin: 0 35%;
+            }
+        }
+    }
+
+
+    /* Lugares populares */
+
+    .container__lugares--populares {
+
+        .container-de-lugares {
+            .item-lugar {
+                h3 {
+                    margin-top: 3%;
+                }
+
+                img {
+                    width: 70%;
+                    height: 40vh;
+                }
+
+                p {
+                    margin: 0 15%;
+                }
+            }
+        }
+    }
+
+    /* escapadas */
+    .container__escapadas {
+        .container__item--escapadas {
+            .item-escapadas {
+                img {
+                    width: 70%;
+                    height: 40vh;
+                }
+
+                p {
+                    width: 70%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    /* Lugares por conocer */
+
+    .titulo__lugares--porconcer {
+        width: 70%;
+    }
+
+    .container__lugares--cba {
+        .container__lugares {
+            h3 {
+                font-size: large;
+            }
+
+            img {
+                width: 69%;
+                height: 40vh;
+            }
+
+            .container__fotos {
+                margin-top: 20px;
+
+                img {
+                    width: 35%;
+                    height: 18vh;
+                }
+            }
+
+            p {
+                width: 69%;
+                margin: 0 auto;
+            }
+        }
+    }
+}

@@ -52,17 +52,16 @@
             text-align: center;
             margin-top: 5%;
             font-size: medium;
-            color: rgb(133, 189, 226);
+            color: rgb(0, 149, 255);
+            font-weight: 500;
         }
 
         .item-escapadas {
             text-align: center;
 
             img {
-                width: 100%;
-                height: 200px;
                 object-fit: cover;
-                padding-top: 20px;
+                padding-top: 15px;
             }
 
             p {

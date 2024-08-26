@@ -21,11 +21,9 @@ h5 {
   padding: 1% 0;
 }
 .container_header .navbar img {
-  width: 13%;
   border-radius: 50%;
 }
 .container_header .navbar h1 {
-  font-size: 20px;
   margin-bottom: 0;
 }
 .container_header .navbar .navbar-toggler {
@@ -36,19 +34,16 @@ h5 {
 }
 .container_header .navbar-collapse ul li a {
   color: #2F3645;
-  font-size: 16px;
   text-decoration: none;
 }
 
 .container-carrusel .carousel-inner img {
   object-fit: cover;
-  height: 250px;
 }
 .container-carrusel .carousel-inner h5 {
   font-size: large;
   text-align: center;
   font-weight: bolder;
-  width: 20%;
 }
 
 .footer {
@@ -148,16 +143,15 @@ h5 {
   text-align: center;
   margin-top: 5%;
   font-size: medium;
-  color: rgb(133, 189, 226);
+  color: rgb(0, 149, 255);
+  font-weight: 500;
 }
 .container__escapadas .container__item--escapadas .item-escapadas {
   text-align: center;
 }
 .container__escapadas .container__item--escapadas .item-escapadas img {
-  width: 100%;
-  height: 200px;
   object-fit: cover;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 .container__escapadas .container__item--escapadas .item-escapadas p {
   padding-top: 10px;
@@ -216,49 +210,98 @@ h5 {
   padding-top: 15px;
 }
 
-/* Nueva resolucion de 768px */
-@media screen and (min-width: 768px) {
-  /* Menu nav */
-  .container_header img {
-    width: 7%;
-  }
-  .navbar-toggler {
-    padding: 5px;
+@media screen and (min-width: 320px) {
+  .navbar img {
+    width: 13%;
   }
   .navbar h1 {
+    font-size: 20px;
+  }
+  .navbar .navbar-collapse ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .navbar-collapse ul li a {
+    font-size: 16px;
+  }
+  .container-carrusel .carousel-inner img {
+    height: 25vh;
+  }
+  .container__lugares--populares h2 {
+    font-size: x-large;
+  }
+  .container__lugares--populares .container-de-lugares .item-lugar h3 {
+    margin-top: 5%;
+    font-size: medium;
+  }
+  .container__lugares--populares .container-de-lugares .item-lugar img {
+    height: 25vh;
+  }
+  .container__lugares--populares .container-de-lugares .item-lugar p {
+    padding: 3% 0;
+    font-size: medium;
+  }
+  .container__escapadas h2 {
+    font-size: x-large;
+  }
+  .container__escapadas .container__item--escapadas h3 {
+    margin-top: 5%;
+    font-size: medium;
+  }
+  .container__escapadas .container__item--escapadas .item-escapadas img {
+    width: 100%;
+    height: 25vh;
+  }
+  .container__escapadas .container__item--escapadas .item-escapadas p {
+    font-size: medium;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* Menu nav */
+  .container_header .navbar img {
+    width: 7%;
+  }
+  .container_header .navbar h1 {
     font-size: 25px;
   }
-  .navbar-nav {
+  .container_header .navbar .navbar-toggler {
+    padding: 2vh;
+  }
+  .container_header .navbar .navbar-nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
   }
-  /* Carrusel */
-  .carousel-inner img {
+  /* Carrousel */
+  .container-carrusel .carousel-inner img {
     height: 45vh;
   }
-  .carousel-inner h5 {
+  .container-carrusel .carousel-inner h5 {
     color: #000000;
     font-size: medium;
     background-color: #baddec;
+    width: 30%;
     margin: 0 35%;
   }
   /* Lugares populares */
-  .item-lugar img {
-    width: 70%;
-    height: 30vh;
+  .container__lugares--populares .container-de-lugares .item-lugar h3 {
+    margin-top: 3%;
   }
-  .item-lugar p {
-    width: 70%;
-    margin: 0 auto;
-  }
-  /* escapadas */
-  .item-escapadas img {
+  .container__lugares--populares .container-de-lugares .item-lugar img {
     width: 70%;
     height: 40vh;
   }
-  .item-escapadas p {
+  .container__lugares--populares .container-de-lugares .item-lugar p {
+    margin: 0 15%;
+  }
+  /* escapadas */
+  .container__escapadas .container__item--escapadas .item-escapadas img {
+    width: 70%;
+    height: 40vh;
+  }
+  .container__escapadas .container__item--escapadas .item-escapadas p {
     width: 70%;
     margin: 0 auto;
   }
@@ -266,73 +309,59 @@ h5 {
   .titulo__lugares--porconcer {
     width: 70%;
   }
-  .container__lugares img {
+  .container__lugares--cba .container__lugares h3 {
+    font-size: large;
+  }
+  .container__lugares--cba .container__lugares img {
     width: 69%;
     height: 40vh;
   }
-  .container__fotos {
+  .container__lugares--cba .container__lugares .container__fotos {
     margin-top: 20px;
   }
-  .container__fotos img {
+  .container__lugares--cba .container__lugares .container__fotos img {
     width: 35%;
     height: 18vh;
   }
-  .container__lugares p {
-    width: 60%;
+  .container__lugares--cba .container__lugares p {
+    width: 69%;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 800px) and (orientation: landscape) {
-  /* menu */
-  .navbar h1 {
-    font-size: 2em;
-    margin-bottom: 0;
+  .container_header .navbar img {
+    width: 6%;
   }
-  .navbar-toggler {
+  .container_header .navbar h1 {
+    font-size: large;
+  }
+  .container_header .navbar .navbar-toggler {
     padding: 1vh;
   }
   /* carrusel */
-  .container-carrusel {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .container-carrusel img {
-    height: 20em;
+  .container-carrusel .carousel-inner img {
+    height: 80vh;
   }
   /* lugares populares */
-  .container__lugares--populares {
-    width: 90%;
-  }
-  .container-de-lugares {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .item-lugar h3 {
-    font-size: large;
-    padding-top: 2%;
-  }
-  .item-lugar img {
-    width: 80%;
-    height: 15em;
-  }
-  .item-lugar p {
-    width: 80%;
-    margin: 0 auto;
-  }
-  /* Escapadas */
-  .container__escapadas {
-    width: 90%;
-  }
-  .container__item--escapadas h3 {
+  .container__lugares--populares .container-de-lugares .item-lugar h3 {
     font-size: large;
   }
-  .item-escapadas img {
+  .container__lugares--populares .container-de-lugares .item-lugar img {
     width: 60%;
-    height: 15em;
+    height: 18em;
   }
-  .item-escapadas p {
+  .container__lugares--populares .container-de-lugares .item-lugar p {
+    margin: 0 20%;
+  }
+  .container__escapadas .container__item--escapadas h3 {
+    font-size: large;
+  }
+  .container__escapadas .container__item--escapadas .item-escapadas img {
     width: 60%;
-    margin: 0 auto;
+    height: 18em;
+  }
+  .container__escapadas .container__item--escapadas .item-escapadas p {
+    width: 60%;
     font-size: medium;
   }
   /* lugare por conocer */
