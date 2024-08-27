@@ -56,6 +56,7 @@
             h3 {
                 font-size: large;
             }
+
             .item-escapadas {
 
                 img {
@@ -73,27 +74,27 @@
 
     /* lugare por conocer */
 
-    .titulo__lugares--porconcer {
-        width: 70%;
-    }
-
     .container__lugares--cba {
-        width: 70%;
-    }
 
-    .container__lugares img {
-        width: 80%;
-        height: 15em;
-    }
+        .container__lugares {
+            
 
-    .container__lugares p {
-        width: 80%;
-        margin: 0 auto;
-    }
+            img {
+                width: 55%;
+                height: 15em;
+            }
 
-    .container__fotos img {
-        width: 40%;
-        height: 8em;
-    }
+            .container__fotos {
+                img {
+                    width: 28%;
+                    height: 8em;
+                }
+            }
 
+            p {
+                width: 55%;
+                margin: 0 23%;
+            }
+        }
+    }
 }

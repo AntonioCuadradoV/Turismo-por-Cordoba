@@ -22,9 +22,11 @@ h5 {
 }
 .container_header .navbar img {
   border-radius: 50%;
+  width: 13%;
 }
 .container_header .navbar h1 {
   margin-bottom: 0;
+  font-size: 20px;
 }
 .container_header .navbar .navbar-toggler {
   padding: 0;
@@ -32,13 +34,21 @@ h5 {
 .container_header .navbar-collapse {
   margin-top: 5%;
 }
+.container_header .navbar-collapse ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_header .navbar-collapse ul li {
+  padding: 0 1rem;
+}
 .container_header .navbar-collapse ul li a {
-  color: #2F3645;
-  text-decoration: none;
+  font-size: 16px;
 }
 
 .container-carrusel .carousel-inner img {
   object-fit: cover;
+  height: 25vh;
 }
 .container-carrusel .carousel-inner h5 {
   font-size: large;
@@ -118,16 +128,17 @@ h5 {
 }
 .container__lugares--populares .container-de-lugares .item-lugar h3 {
   font-size: medium;
+  margin-top: 5%;
   margin-bottom: 15px;
 }
 .container__lugares--populares .container-de-lugares .item-lugar img {
   width: 100%;
-  height: 200px;
+  height: 25vh;
   object-fit: cover;
 }
 .container__lugares--populares .container-de-lugares .item-lugar p {
   text-align: left;
-  padding: 5% 0;
+  padding: 3% 0;
   font-size: medium;
 }
 
@@ -136,7 +147,7 @@ h5 {
 }
 .container__escapadas h2 {
   padding-top: 15px;
-  font-size: 20px;
+  font-size: x-large;
   color: #C38154;
 }
 .container__escapadas .container__item--escapadas h3 {
@@ -150,13 +161,15 @@ h5 {
   text-align: center;
 }
 .container__escapadas .container__item--escapadas .item-escapadas img {
+  width: 100%;
+  height: 25vh;
   object-fit: cover;
   padding-top: 15px;
 }
 .container__escapadas .container__item--escapadas .item-escapadas p {
   padding-top: 10px;
   text-align: left;
-  font-size: 15px;
+  font-size: medium;
 }
 
 .titulo__lugares--porconcer {
@@ -210,53 +223,6 @@ h5 {
   padding-top: 15px;
 }
 
-@media screen and (min-width: 320px) {
-  .navbar img {
-    width: 13%;
-  }
-  .navbar h1 {
-    font-size: 20px;
-  }
-  .navbar .navbar-collapse ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .navbar .navbar-collapse ul li a {
-    font-size: 16px;
-  }
-  .container-carrusel .carousel-inner img {
-    height: 25vh;
-  }
-  .container__lugares--populares h2 {
-    font-size: x-large;
-  }
-  .container__lugares--populares .container-de-lugares .item-lugar h3 {
-    margin-top: 5%;
-    font-size: medium;
-  }
-  .container__lugares--populares .container-de-lugares .item-lugar img {
-    height: 25vh;
-  }
-  .container__lugares--populares .container-de-lugares .item-lugar p {
-    padding: 3% 0;
-    font-size: medium;
-  }
-  .container__escapadas h2 {
-    font-size: x-large;
-  }
-  .container__escapadas .container__item--escapadas h3 {
-    margin-top: 5%;
-    font-size: medium;
-  }
-  .container__escapadas .container__item--escapadas .item-escapadas img {
-    width: 100%;
-    height: 25vh;
-  }
-  .container__escapadas .container__item--escapadas .item-escapadas p {
-    font-size: medium;
-  }
-}
 @media screen and (min-width: 768px) {
   /* Menu nav */
   .container_header .navbar img {
@@ -365,49 +331,44 @@ h5 {
     font-size: medium;
   }
   /* lugare por conocer */
-  .titulo__lugares--porconcer {
-    width: 70%;
-  }
-  .container__lugares--cba {
-    width: 70%;
-  }
-  .container__lugares img {
-    width: 80%;
+  .container__lugares--cba .container__lugares img {
+    width: 55%;
     height: 15em;
   }
-  .container__lugares p {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .container__fotos img {
-    width: 40%;
+  .container__lugares--cba .container__lugares .container__fotos img {
+    width: 28%;
     height: 8em;
   }
+  .container__lugares--cba .container__lugares p {
+    width: 55%;
+    margin: 0 23%;
+  }
 }
-/* Nueva resolucion de 1024 */
 @media screen and (min-width: 1024px) and (orientation: landscape) {
   /* Menu nav */
-  .navbar-collapse {
-    margin-top: 0;
-  }
-  .container_header img {
+  .container_header .navbar img {
     width: 5%;
   }
-  .navbar h1 {
+  .container_header .navbar h1 {
     margin: 0;
     padding-left: 10px;
     font-size: 23px;
   }
-  .navbar ul {
+  .container_header .navbar-collapse {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_header .navbar-collapse ul {
     padding-left: 2rem;
   }
   /* carusel */
-  .carousel-inner img {
-    height: 45vh;
+  .container-carrusel .carousel-inner img {
+    height: 55vh;
   }
-  .carousel-inner h5 {
+  .container-carrusel .carousel-inner h5 {
     font-size: large;
-    margin: 0 41%;
   }
   /* Lugares populares */
   .container__lugares--populares {
@@ -417,24 +378,25 @@ h5 {
     font-size: x-large;
     margin-left: 2%;
   }
-  .container-de-lugares {
+  .container__lugares--populares .container-de-lugares {
     display: flex;
     justify-content: space-between;
     align-items: start;
   }
-  .item-lugar {
+  .container__lugares--populares .container-de-lugares .item-lugar {
     padding: 1rem;
   }
-  .item-lugar h3 {
+  .container__lugares--populares .container-de-lugares .item-lugar h3 {
     font-size: large;
   }
-  .item-lugar img {
+  .container__lugares--populares .container-de-lugares .item-lugar img {
     width: 100%;
-    height: 25vh;
+    height: 28vh;
   }
-  .item-lugar p {
+  .container__lugares--populares .container-de-lugares .item-lugar p {
     width: 100%;
     font-size: medium;
+    margin: 0;
   }
   /* escapadas */
   .container__escapadas {
@@ -446,23 +408,23 @@ h5 {
     margin-left: 2%;
     padding-top: 0;
   }
-  .container__item--escapadas h3 {
+  .container__escapadas .container__item--escapadas h3 {
     text-align: center;
     margin: 2%;
     font-size: larger;
   }
-  .item-escapadas {
+  .container__escapadas .container__item--escapadas .item-escapadas {
     display: flex;
     justify-content: space-evenly;
     align-items: start;
     margin-top: 2%;
   }
-  .item-escapadas img {
+  .container__escapadas .container__item--escapadas .item-escapadas img {
     width: 30%;
     height: 30vh;
     padding-top: 0;
   }
-  .item-escapadas p {
+  .container__escapadas .container__item--escapadas .item-escapadas p {
     width: 35%;
     font-size: medium;
     text-align: center;
@@ -472,89 +434,81 @@ h5 {
   .titulo__lugares--porconcer {
     width: 50%;
   }
-  .container__lugares img {
-    width: 69%;
-    height: 50vh;
+  .container__lugares--cba .container__lugares img {
+    width: 59%;
+    height: 45vh;
   }
-  .container__fotos img {
-    width: 35%;
+  .container__lugares--cba .container__lugares .container__fotos img {
+    width: 30%;
     height: 25vh;
   }
-  .container__lugares p {
-    width: 69%;
+  .container__lugares--cba .container__lugares p {
+    width: 59%;
     margin: 0 auto;
   }
   .footer {
     margin-top: 5%;
   }
-  .footer-links h4 {
+  .footer .container__footer .footer-row .footer-links h4 {
     font-size: large;
   }
-  .footer-links a {
+  .footer .container__footer .footer-row .footer-links a {
     font-size: 20px;
   }
 }
-/* resolucion minima 1025 a 1440 */
 @media screen and (min-width: 1440px) {
   /* menu */
-  .container_header img {
+  .container_header .navbar img {
     width: 4%;
     margin-left: 2%;
   }
-  .navbar h1 {
+  .container_header .navbar h1 {
     font-size: xx-large;
     margin-left: 1%;
   }
-  .navbar-collapse ul {
+  .container_header .navbar-collapse ul {
     padding: 0;
   }
-  .navbar-collapse {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .container_header .navbar-collapse ul li {
+    padding: 0 2rem;
   }
-  .navbar-collapse ul li {
-    padding: 0 1.5rem;
-  }
-  .navbar-collapse ul li a {
+  .container_header .navbar-collapse ul li a {
     font-size: large;
   }
   /* Carrusel */
-  .carousel-inner img {
-    height: 65vh;
+  .container-carrusel .carousel-inner img {
+    height: 60vh;
   }
   /* lugares populares */
-  .container__lugares--populares {
-    width: 90%;
-  }
   .container__lugares--populares h2 {
     margin-left: 0;
     font-size: xx-large;
   }
-  .item-lugar h3 {
+  .container__lugares--populares .container-de-lugares .item-lugar h3 {
     font-size: x-large;
   }
-  .item-lugar p {
+  .container__lugares--populares .container-de-lugares .item-lugar img {
+    height: 30vh;
+  }
+  .container__lugares--populares .container-de-lugares .item-lugar p {
     font-size: medium;
   }
   /* Escapadas */
-  .container__escapadas {
-    width: 90%;
-    margin: 0 auto;
-  }
   .container__escapadas h2 {
     margin-left: 0;
     font-size: xx-large;
   }
-  .container__item--escapadas h3 {
+  .container__escapadas .container__item--escapadas h3 {
     font-size: x-large;
   }
-  .item-escapadas img {
+  .container__escapadas .container__item--escapadas .item-escapadas img {
     width: 33%;
+    height: 30vh;
   }
-  .item-escapadas p {
+  .container__escapadas .container__item--escapadas .item-escapadas p {
     width: 30%;
     font-size: medium;
+    padding-top: 0;
   }
   /* Lugares por conocer */
   .titulo__lugares--porconcer h1 {
@@ -563,32 +517,37 @@ h5 {
   .titulo__lugares--porconcer p {
     font-size: large;
   }
-  .container__lugares h3 {
+  .container__lugares--cba .container__lugares h3 {
     font-size: x-large;
   }
-  .container__lugares p {
+  .container__lugares--cba .container__lugares img {
+    width: 60%;
+    height: 50vh;
+  }
+  .container__lugares--cba .container__lugares .container__fotos img {
+    width: 30%;
+    height: 25vh;
+  }
+  .container__lugares--cba .container__lugares p {
     font-size: medium;
+    width: 60%;
   }
 }
 @media screen and (min-width: 1920px) {
   /* menu */
-  .container-fluid {
+  .container_header .navbar .container-fluid {
     width: 90%;
   }
-  .navbar h1 {
+  .container_header .navbar h1 {
     font-size: 30px;
   }
-  .navbar-collapse ul li {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 2rem;
+  .container_header .navbar-collapse ul li {
+    padding: 0 3rem;
   }
-  .navbar-collapse ul li a {
-    font-size: x-large;
+  .container_header .navbar-collapse ul li a {
     font-size: 20px;
   }
-  .nav-item a:hover {
+  .container_header .navbar-collapse ul li a:hover {
     color: brown;
     font-size: 25px;
     font-weight: 500;
@@ -596,23 +555,34 @@ h5 {
     padding-bottom: 5px;
     display: inline-block;
   }
-  /* main */
-  main {
-    width: 80%;
-    margin: 0 auto;
+  .container-carrusel .carousel-inner h5 {
+    width: 18%;
+    margin: 0 41%;
+    font-size: x-large;
   }
   /* lugares populares */
   .container__lugares--populares h2 {
     margin-top: 2%;
+    margin-left: 3%;
   }
-  .item-lugar p {
+  .container__lugares--populares .container-de-lugares .item-lugar img {
+    height: 35vh;
+  }
+  .container__lugares--populares .container-de-lugares .item-lugar p {
     font-size: 20px;
     width: 95%;
   }
   /* escapadas */
-  .item-escapadas p {
+  .container__escapadas h2 {
+    margin-left: 3%;
+  }
+  .container__escapadas .container__item--escapadas .item-escapadas p {
     font-size: 20px;
     padding-left: 2rem;
+  }
+  .container__escapadas .container__item--escapadas .item-escapadas img {
+    width: 30%;
+    height: 35vh;
   }
   /* lugares por conocer */
   .titulo__lugares--porconcer p {
@@ -621,120 +591,115 @@ h5 {
     padding-top: 15px;
     font-size: 20px;
   }
-  .container__lugares h3 {
+  .container__lugares--cba .container__lugares {
+    padding-top: 3rem;
+  }
+  .container__lugares--cba .container__lugares h3 {
     font-size: xx-large;
     padding-bottom: 1rem;
   }
-  .container__lugares p {
-    font-size: large;
+  .container__lugares--cba .container__lugares p {
+    font-size: x-large;
+  }
+  /* Escapadas del finde */
+  .escapadas {
+    margin-top: 2%;
+    margin: 0 3%;
+  }
+  .escapadas h2 {
+    margin: 3% 0;
+    text-align: center;
+  }
+  .escapadas .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .escapadas .container .col-sm-3 {
+    width: 13%;
+    padding: 0;
+    border-right: solid 2px black;
+  }
+  .escapadas .container .col-sm-3 .col-md-12 {
+    margin-bottom: 5%;
+  }
+  .escapadas .container .col-sm-3 .col-md-12 a {
+    text-decoration: none;
+    color: #2F3645;
+    font-size: medium;
+  }
+  .escapadas .container .col-sm-3 .col-md-12 a:hover {
+    color: #C38154;
+  }
+  .escapadas .container .col-sm-9 {
+    width: 85%;
+    margin-left: 2%;
+  }
+  .escapadas .container .col-sm-9 img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  /* campings */
+  .container__campings {
+    margin: 0 10%;
+  }
+  .container__campings h2 {
+    margin: 2% 0;
+    text-align: center;
+  }
+  .container__campings .card {
+    height: 55vh;
+  }
+  .container__campings .card img {
+    width: 90%;
+    margin: 5% 5%;
+    height: 18em;
+    object-fit: cover;
+  }
+  .container__campings .card .card-body {
+    width: 90%;
+    margin: 0 2%;
+    padding-top: 0;
   }
   /* estilos para alojamiento */
   .main__alojamiento {
     width: 95%;
   }
-  .alojamientos {
+  .main__alojamiento .alojamientos {
     margin-top: 2%;
     margin: 0 auto;
   }
-  .alojamientos,
-  .container {
+  .main__alojamiento .alojamientos h2 {
+    margin: 3% 0;
+    text-align: center;
+  }
+  .main__alojamiento .alojamientos .container {
     max-width: 100%;
   }
-  .alojamientos .col-sm-2 {
+  .main__alojamiento .alojamientos .container .col-sm-2 {
     width: 10%;
     border-right: solid 2px #000;
   }
-  .alojamientos .col-sm-10 {
-    width: 88%;
-    margin-left: 2%;
-  }
-  .alojamientos .col-md-4 {
+  .main__alojamiento .alojamientos .container .col-sm-2 .col-md-4 {
     margin-bottom: 10%;
     width: 100%;
   }
-  .alojamientos a {
+  .main__alojamiento .alojamientos .container .col-sm-2 .col-md-4 a {
     text-decoration: none;
     color: #2F3645;
     font-size: medium;
   }
-  .alojamientos a:hover {
+  .main__alojamiento .alojamientos .container .col-sm-2 .col-md-4 a:hover {
     color: #C38154;
   }
-}
-.alojamientos h2 {
-  margin: 3% 0;
-  text-align: center;
-}
-
-.alojamientos img {
-  height: 100%;
-}
-
-/* Escapadas del finde */
-.escapadas {
-  margin-top: 2%;
-}
-
-.escapadas .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.escapadas .col-sm-3 {
-  width: 13%;
-  padding: 0;
-  border-right: solid 2px black;
-}
-
-.escapadas .col-sm-9 {
-  width: 85%;
-  margin-left: 2%;
-}
-
-.escapadas .col-md-12 {
-  margin-bottom: 5%;
-}
-
-.escapadas h2 {
-  margin: 3% 0;
-  text-align: center;
-}
-
-.escapadas a {
-  text-decoration: none;
-  color: #2F3645;
-  font-size: medium;
-}
-
-.escapadas a:hover {
-  color: #C38154;
-}
-
-.escapadas img {
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
-}
-
-.escapadas__col .col-md-4 {
-  width: 50%;
-}
-
-/* campings */
-.container__campings {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.container__campings h2 {
-  margin: 2% 0;
-  text-align: center;
-}
-
-.container__campings img {
-  height: 15em;
-  object-fit: cover;
+  .main__alojamiento .alojamientos .container .col-sm-10 {
+    width: 80%;
+    margin-left: 2%;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-10 img {
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

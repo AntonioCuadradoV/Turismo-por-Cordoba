@@ -1,0 +1,134 @@
+@media screen and (min-width: 1440px) {
+
+    /* menu */
+    .container_header {
+        .navbar {
+            img {
+                width: 4%;
+                margin-left: 2%;
+            }
+
+            h1 {
+                font-size: xx-large;
+                margin-left: 1%;
+            }
+        }
+
+        .navbar-collapse {
+            ul {
+                padding: 0;
+
+                li {
+                    padding: 0 2rem;
+
+                    a {
+                        font-size: large;
+                    }
+                }
+            }
+        }
+    }
+
+    /* Carrusel */
+
+    .container-carrusel {
+
+        .carousel-inner {
+            img {
+                height: 60vh;
+            }
+        }
+    }
+
+    /* lugares populares */
+
+    .container__lugares--populares {
+
+        h2 {
+            margin-left: 0;
+            font-size: xx-large;
+        }
+
+        .container-de-lugares {
+            .item-lugar {
+                h3 {
+                    font-size: x-large;
+                }
+
+                img {
+                    height: 30vh;
+                }
+
+                p {
+                    font-size: medium;
+                }
+            }
+        }
+    }
+
+    /* Escapadas */
+    .container__escapadas {
+        h2 {
+            margin-left: 0;
+            font-size: xx-large;
+        }
+
+        .container__item--escapadas {
+
+            h3 {
+                font-size: x-large;
+            }
+
+            .item-escapadas {
+                img {
+                    width: 33%;
+                    height: 30vh;
+                }
+
+                p {
+                    width: 30%;
+                    font-size: medium;
+                    padding-top: 0;
+                }
+            }
+
+        }
+    }
+
+    /* Lugares por conocer */
+
+    .titulo__lugares--porconcer {
+        h1 {
+            font-size: xx-large;
+        }
+
+        p {
+            font-size: large;
+        }
+    }
+
+    .container__lugares--cba {
+        .container__lugares {
+            h3 {
+                font-size: x-large;
+            }
+
+            img {
+                width: 60%;
+                height: 50vh;
+            }
+
+            .container__fotos {
+                img {
+                    width: 30%;
+                    height: 25vh;
+                }
+            }
+
+            p {
+                font-size: medium;
+                width: 60%;
+            }
+        }
+    }
+}
