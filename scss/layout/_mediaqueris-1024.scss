@@ -201,4 +201,61 @@
             }
         }
     }
+
+    //Alojamientos
+
+    .main__alojamiento {
+
+        .alojamientos {
+
+            .container {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .col-sm-2 {
+                    display: block;
+                    align-items: start;
+                    width: 15%;
+                    padding: 0;
+                    border-right: solid 2px black;
+                    height: 100%;
+
+                    .col-md-4 {
+                        margin-bottom: 3%;
+                        width: 100%;
+
+                        a {
+                            text-decoration: none;
+                            color: #2F3645;
+                            font-size: medium;
+                        }
+                    }
+                }
+
+                .col-sm-10 {
+                    width: 85%;
+
+                    .col-4 {
+                        width: 80%;
+                        margin: 0 10%;
+
+                        .col-md-4 {
+                            width: 30%;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        .col-md-8 {
+                            width: 70%;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
 }

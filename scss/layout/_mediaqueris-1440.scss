@@ -150,4 +150,36 @@
             }
         }
     }
+
+    //alojamientos
+
+    .main__alojamiento {
+        .alojamientos {
+            .container {
+
+                .col-sm-10 {
+                    .col-4 {
+                        width: 50%;
+                        margin: 0;
+
+                        .col-md-4 {
+                            width: 30%;
+                        }
+
+                        .col-md-8 {
+                            width: 70%;
+
+                            h5{
+                                font-size: large;
+                            }
+                            p{
+                                font-size: 15px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
 }

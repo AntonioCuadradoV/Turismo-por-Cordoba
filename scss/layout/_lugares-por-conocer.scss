@@ -2,7 +2,7 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
 
     h1 {
         font-size: 20px;
@@ -17,18 +17,16 @@
 
 
 .container__lugares--cba {
-    margin: 2%;
-
     .container__lugares {
         text-align: center;
-        padding-top: 30px;
 
         h3 {
             font-size: large;
+            margin: 5%;
         }
 
         img {
-            width: 100%;
+            width: 85%;
             height: 26vh;
         }
 
@@ -39,8 +37,8 @@
             margin-top: 5%;
 
             img {
-                width: 50%;
-                height: 13vh;
+                width: 44%;
+                height: 12vh;
                 object-fit: cover;
                 padding: 0 3px 0 3px;
             }

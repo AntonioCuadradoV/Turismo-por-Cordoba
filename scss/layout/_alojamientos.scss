@@ -1,0 +1,40 @@
+.main__alojamiento {
+
+    .alojamientos {
+        h2 {
+            margin-top: 5%;
+            text-align: center;
+        }
+
+        .container {
+            .col-sm-2 {
+                display: none;
+            }
+
+            .col-sm-10 {
+                width: 100%;
+
+                .col-4{
+                    width: 95%;
+                    margin: 0 2.5%;
+
+                    img {
+                        height: 100%;
+                        object-fit: cover;
+                        width: 100%;
+                    }
+
+                    h5{
+                        font-size: medium;
+                    }
+
+                    p{
+                        font-size: small;
+                    }
+                }
+
+                
+            }
+        }
+    }
+}

@@ -109,15 +109,25 @@
 
     .container__lugares--cba {
         .container__lugares {
-            padding-top: 3rem;
 
             h3 {
                 font-size: xx-large;
-                padding-bottom: 1rem;
+            }
+
+            img{
+                width: 40%;
+                height: 50vh;
+            }
+
+            .container__fotos {
+                img {
+                    width: 20%;
+                }
             }
 
             p {
-                font-size: x-large;
+                width: 40%;
+                font-size: large;
             }
         }
     }
@@ -174,8 +184,6 @@
     /* estilos para alojamiento */
 
     .main__alojamiento {
-        width: 95%;
-
         .alojamientos {
             margin-top: 2%;
             margin: 0 auto;
@@ -187,6 +195,10 @@
 
             .container {
                 max-width: 100%;
+                
+                .row{
+                    justify-content: center;
+                }
 
                 .col-sm-2 {
                     width: 10%;

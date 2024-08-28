@@ -176,7 +176,7 @@ h5 {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 .titulo__lugares--porconcer h1 {
   font-size: 20px;
@@ -187,18 +187,15 @@ h5 {
   margin-bottom: 0;
 }
 
-.container__lugares--cba {
-  margin: 2%;
-}
 .container__lugares--cba .container__lugares {
   text-align: center;
-  padding-top: 30px;
 }
 .container__lugares--cba .container__lugares h3 {
   font-size: large;
+  margin: 5%;
 }
 .container__lugares--cba .container__lugares img {
-  width: 100%;
+  width: 85%;
   height: 26vh;
 }
 .container__lugares--cba .container__lugares .container__fotos {
@@ -208,8 +205,8 @@ h5 {
   margin-top: 5%;
 }
 .container__lugares--cba .container__lugares .container__fotos img {
-  width: 50%;
-  height: 13vh;
+  width: 44%;
+  height: 12vh;
   object-fit: cover;
   padding: 0 3px 0 3px;
 }
@@ -241,6 +238,32 @@ h5 {
   height: 100%;
   object-fit: cover;
   width: 100%;
+}
+
+.main__alojamiento .alojamientos h2 {
+  margin-top: 5%;
+  text-align: center;
+}
+.main__alojamiento .alojamientos .container .col-sm-2 {
+  display: none;
+}
+.main__alojamiento .alojamientos .container .col-sm-10 {
+  width: 100%;
+}
+.main__alojamiento .alojamientos .container .col-sm-10 .col-4 {
+  width: 95%;
+  margin: 0 2.5%;
+}
+.main__alojamiento .alojamientos .container .col-sm-10 .col-4 img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.main__alojamiento .alojamientos .container .col-sm-10 .col-4 h5 {
+  font-size: medium;
+}
+.main__alojamiento .alojamientos .container .col-sm-10 .col-4 p {
+  font-size: small;
 }
 
 @media screen and (min-width: 768px) {
@@ -517,6 +540,44 @@ h5 {
   .escapadas .container .col-sm-9 .col-4 .col-md-5 {
     width: 40%;
   }
+  .main__alojamiento .alojamientos .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-2 {
+    display: block;
+    align-items: start;
+    width: 15%;
+    padding: 0;
+    border-right: solid 2px black;
+    height: 100%;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-2 .col-md-4 {
+    margin-bottom: 3%;
+    width: 100%;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-2 .col-md-4 a {
+    text-decoration: none;
+    color: #2F3645;
+    font-size: medium;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-10 {
+    width: 85%;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-10 .col-4 {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-10 .col-4 .col-md-4 {
+    width: 30%;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-10 .col-4 .col-md-4 img {
+    width: 100%;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-10 .col-4 .col-md-8 {
+    width: 70%;
+  }
 }
 @media screen and (min-width: 1440px) {
   /* menu */
@@ -603,6 +664,22 @@ h5 {
   .escapadas .container .col-sm-9 .col-4 {
     width: 50%;
   }
+  .main__alojamiento .alojamientos .container .col-sm-10 .col-4 {
+    width: 50%;
+    margin: 0;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-10 .col-4 .col-md-4 {
+    width: 30%;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-10 .col-4 .col-md-8 {
+    width: 70%;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-10 .col-4 .col-md-8 h5 {
+    font-size: large;
+  }
+  .main__alojamiento .alojamientos .container .col-sm-10 .col-4 .col-md-8 p {
+    font-size: 15px;
+  }
 }
 @media screen and (min-width: 1920px) {
   /* menu */
@@ -662,15 +739,19 @@ h5 {
     padding-top: 15px;
     font-size: 20px;
   }
-  .container__lugares--cba .container__lugares {
-    padding-top: 3rem;
-  }
   .container__lugares--cba .container__lugares h3 {
     font-size: xx-large;
-    padding-bottom: 1rem;
+  }
+  .container__lugares--cba .container__lugares img {
+    width: 40%;
+    height: 50vh;
+  }
+  .container__lugares--cba .container__lugares .container__fotos img {
+    width: 20%;
   }
   .container__lugares--cba .container__lugares p {
-    font-size: x-large;
+    width: 40%;
+    font-size: large;
   }
   /* Escapadas del finde */
   .escapadas .container {
@@ -709,9 +790,6 @@ h5 {
     padding-top: 0;
   }
   /* estilos para alojamiento */
-  .main__alojamiento {
-    width: 95%;
-  }
   .main__alojamiento .alojamientos {
     margin-top: 2%;
     margin: 0 auto;
@@ -722,6 +800,9 @@ h5 {
   }
   .main__alojamiento .alojamientos .container {
     max-width: 100%;
+  }
+  .main__alojamiento .alojamientos .container .row {
+    justify-content: center;
   }
   .main__alojamiento .alojamientos .container .col-sm-2 {
     width: 10%;
