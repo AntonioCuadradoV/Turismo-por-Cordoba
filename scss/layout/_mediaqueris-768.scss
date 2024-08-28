@@ -14,7 +14,7 @@
             }
 
             .navbar-toggler {
-                padding: 2vh;
+                padding: 1vh;
             }
 
             .navbar-nav {
@@ -113,6 +113,35 @@
             p {
                 width: 69%;
                 margin: 0 auto;
+            }
+        }
+    }
+
+    //escapadas por cordoba
+
+    .escapadas {
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .col-sm-3 {
+                display: block;
+                align-items: start;
+                width: 25%;
+                padding: 0;
+                border-right: solid 2px black;
+
+                .col-md-12 {
+                    margin-bottom: 3%;
+
+                    a {
+                        text-decoration: none;
+                        color: #2F3645;
+                        font-size: medium;
+                    }
+                }
             }
         }
     }

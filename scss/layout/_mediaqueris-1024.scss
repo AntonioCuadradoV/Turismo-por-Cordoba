@@ -4,6 +4,10 @@
 
     .container_header {
         .navbar {
+            .container-fluid {
+                width: 100%;
+            }
+
             img {
                 width: 5%;
             }
@@ -80,7 +84,7 @@
         }
     }
 
-    /* escapadas */
+    /* escapadas por cordoba*/
 
     .container__escapadas {
         width: 100%;
@@ -163,6 +167,36 @@
                     a {
                         font-size: 20px;
                     }
+                }
+            }
+        }
+    }
+
+    /* Escapadas del finde */
+    .escapadas {
+        .container {
+            .col-sm-3 {
+                width: 20%;
+
+                .col-md-12 {
+                    a {
+                        &:hover {
+                            color: #C38154;
+                        }
+                    }
+                }
+            }
+
+            .col-sm-9 {
+                width: 80%;
+
+                .col-4 {
+                    width: 70%;
+
+                    .col-md-5 {
+                        width: 40%;
+                    }
+
                 }
             }
         }

@@ -4,12 +4,16 @@
     .container_header {
 
         .navbar {
+
+            .container-fluid{
+                width: 80%;
+            }
             img {
                 width: 6%;
             }
 
             h1 {
-                font-size: large;
+                font-size: x-large;
             }
 
             .navbar-toggler {
@@ -60,7 +64,7 @@
             .item-escapadas {
 
                 img {
-                    width: 60%;
+                    width: 59%;
                     height: 18em;
                 }
 

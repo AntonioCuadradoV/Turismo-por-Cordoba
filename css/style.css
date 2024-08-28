@@ -223,6 +223,26 @@ h5 {
   padding-top: 15px;
 }
 
+/* Escapadas del finde */
+.escapadas {
+  margin: 0 3%;
+}
+.escapadas h2 {
+  margin: 3% 0;
+  text-align: center;
+}
+.escapadas .container .col-sm-3 {
+  display: none;
+}
+.escapadas .container .col-sm-9 .col-4 {
+  width: 100%;
+}
+.escapadas .container .col-sm-9 .col-4 img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   /* Menu nav */
   .container_header .navbar img {
@@ -232,7 +252,7 @@ h5 {
     font-size: 25px;
   }
   .container_header .navbar .navbar-toggler {
-    padding: 2vh;
+    padding: 1vh;
   }
   .container_header .navbar .navbar-nav {
     display: flex;
@@ -293,13 +313,36 @@ h5 {
     width: 69%;
     margin: 0 auto;
   }
+  .escapadas .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .escapadas .container .col-sm-3 {
+    display: block;
+    align-items: start;
+    width: 25%;
+    padding: 0;
+    border-right: solid 2px black;
+  }
+  .escapadas .container .col-sm-3 .col-md-12 {
+    margin-bottom: 3%;
+  }
+  .escapadas .container .col-sm-3 .col-md-12 a {
+    text-decoration: none;
+    color: #2F3645;
+    font-size: medium;
+  }
 }
 @media screen and (min-width: 800px) and (orientation: landscape) {
+  .container_header .navbar .container-fluid {
+    width: 80%;
+  }
   .container_header .navbar img {
     width: 6%;
   }
   .container_header .navbar h1 {
-    font-size: large;
+    font-size: x-large;
   }
   .container_header .navbar .navbar-toggler {
     padding: 1vh;
@@ -323,7 +366,7 @@ h5 {
     font-size: large;
   }
   .container__escapadas .container__item--escapadas .item-escapadas img {
-    width: 60%;
+    width: 59%;
     height: 18em;
   }
   .container__escapadas .container__item--escapadas .item-escapadas p {
@@ -346,6 +389,9 @@ h5 {
 }
 @media screen and (min-width: 1024px) and (orientation: landscape) {
   /* Menu nav */
+  .container_header .navbar .container-fluid {
+    width: 100%;
+  }
   .container_header .navbar img {
     width: 5%;
   }
@@ -398,7 +444,7 @@ h5 {
     font-size: medium;
     margin: 0;
   }
-  /* escapadas */
+  /* escapadas por cordoba*/
   .container__escapadas {
     width: 100%;
     margin: 2% 0;
@@ -454,6 +500,22 @@ h5 {
   }
   .footer .container__footer .footer-row .footer-links a {
     font-size: 20px;
+  }
+  /* Escapadas del finde */
+  .escapadas .container .col-sm-3 {
+    width: 20%;
+  }
+  .escapadas .container .col-sm-3 .col-md-12 a:hover {
+    color: #C38154;
+  }
+  .escapadas .container .col-sm-9 {
+    width: 80%;
+  }
+  .escapadas .container .col-sm-9 .col-4 {
+    width: 70%;
+  }
+  .escapadas .container .col-sm-9 .col-4 .col-md-5 {
+    width: 40%;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -532,6 +594,15 @@ h5 {
     font-size: medium;
     width: 60%;
   }
+  .escapadas .container .col-sm-3 {
+    width: 15%;
+  }
+  .escapadas .container .col-sm-9 {
+    width: 85%;
+  }
+  .escapadas .container .col-sm-9 .col-4 {
+    width: 50%;
+  }
 }
 @media screen and (min-width: 1920px) {
   /* menu */
@@ -602,43 +673,18 @@ h5 {
     font-size: x-large;
   }
   /* Escapadas del finde */
-  .escapadas {
-    margin-top: 2%;
-    margin: 0 3%;
-  }
-  .escapadas h2 {
-    margin: 3% 0;
-    text-align: center;
-  }
   .escapadas .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    max-width: 1920px;
   }
   .escapadas .container .col-sm-3 {
     width: 13%;
-    padding: 0;
-    border-right: solid 2px black;
   }
   .escapadas .container .col-sm-3 .col-md-12 {
     margin-bottom: 5%;
+    margin-right: 12%;
   }
-  .escapadas .container .col-sm-3 .col-md-12 a {
-    text-decoration: none;
-    color: #2F3645;
-    font-size: medium;
-  }
-  .escapadas .container .col-sm-3 .col-md-12 a:hover {
-    color: #C38154;
-  }
-  .escapadas .container .col-sm-9 {
+  .escapadas .col-sm-9 {
     width: 85%;
-    margin-left: 2%;
-  }
-  .escapadas .container .col-sm-9 img {
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
   }
   /* campings */
   .container__campings {

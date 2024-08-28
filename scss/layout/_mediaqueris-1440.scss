@@ -131,4 +131,23 @@
             }
         }
     }
+
+    //Escapadas por cordoba
+
+    .escapadas {    
+        .container {
+            
+            .col-sm-3 {
+                width: 15%;
+            }
+    
+            .col-sm-9 {
+                width: 85%;
+                .col-4{
+                    width: 50%;
+                }
+                
+            }
+        }
+    }
 }

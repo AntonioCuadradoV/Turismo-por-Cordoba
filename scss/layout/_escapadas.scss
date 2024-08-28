@@ -1,0 +1,29 @@
+/* Escapadas del finde */
+.escapadas {
+    margin: 0 3%;
+
+    h2 {
+        margin: 3% 0;
+        text-align: center;
+    }
+
+    .container {
+
+        .col-sm-3 {
+            display: none;
+        }
+
+        .col-sm-9 {
+            .col-4{
+                width: 100%;
+
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+            
+        }
+    }
+}
