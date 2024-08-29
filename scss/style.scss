@@ -1,6 +1,7 @@
 //base
-@import 'base/reset';
 
+@import 'base/animaciones';
+@import 'base/reset';
 //components
 @import 'components/navbar';
 @import 'components/carrousel';
@@ -9,6 +10,7 @@
 //layout
 @import 'layout/index';
 @import 'layout/lugares-por-conocer';
+@import 'layout/camping';
 @import 'layout/escapadas';
 @import 'layout/alojamientos';
 @import 'layout/mediaqueris-768';

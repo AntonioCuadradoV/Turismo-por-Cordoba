@@ -117,6 +117,25 @@
         }
     }
 
+
+    //campings
+
+    .container__campings {
+
+        .col {
+            width: 50%;
+
+            .card {
+                border-radius: 20px;
+
+                img {
+                    border-radius: 0;
+                }
+            }
+        }
+
+    }
+
     //escapadas por cordoba
 
     .escapadas {

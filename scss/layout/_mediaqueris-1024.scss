@@ -172,6 +172,26 @@
         }
     }
 
+
+    //campings
+
+    .container__campings {
+
+        .row-cols-md-3 {
+            display: flex;
+            justify-content: center;
+            align-items: start;
+
+            .col {
+                width: 40%;
+                height: 100%;
+            }
+        }
+
+
+    }
+
+
     /* Escapadas del finde */
     .escapadas {
         .container {
