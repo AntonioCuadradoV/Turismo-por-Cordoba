@@ -140,6 +140,10 @@
         .row-cols-md-3 {
             .col {
                 width: 33%; 
+
+                .card{
+                    height: 30em;
+                }
             }
         }
     }

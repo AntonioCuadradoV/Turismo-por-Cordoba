@@ -105,7 +105,7 @@
                 font-size: xx-large;
             }
 
-            img{
+            img {
                 width: 40%;
                 height: 50vh;
             }
@@ -128,18 +128,20 @@
     .escapadas {
         .container {
             max-width: 1920px;
+
             .col-sm-3 {
                 width: 13%;
 
                 .col-md-12 {
                     margin-bottom: 5%;
                     margin-right: 12%;
-                    }
                 }
             }
-            .col-sm-9 {
-                width: 85%;
-            }
+        }
+
+        .col-sm-9 {
+            width: 85%;
+        }
     }
 
 
@@ -153,60 +155,64 @@
             text-align: center;
         }
 
-        .card {
-            height: 33em;
-            width: 85%;
+        .row-cols-md-3 {
+            .col {
+                .card {
+                    height: 33em;
+                    width: 85%;
 
-            img {
-                height: 18em;
+                    img {
+                        height: 18em;
+                    }
+                }
             }
         }
     }
 
 
-    /* estilos para alojamiento */
+            /* estilos para alojamiento */
 
-    .main__alojamiento {
-        .alojamientos {
-            margin-top: 2%;
-            margin: 0 auto;
+            .main__alojamiento {
+                .alojamientos {
+                    margin-top: 2%;
+                    margin: 0 auto;
 
-            h2 {
-                margin: 3% 0;
-                text-align: center;
-            }
+                    h2 {
+                        margin: 3% 0;
+                        text-align: center;
+                    }
 
-            .container {
-                max-width: 100%;
-                
-                .row{
-                    justify-content: center;
-                }
+                    .container {
+                        max-width: 100%;
 
-                .col-sm-2 {
-                    width: 10%;
-                    border-right: solid 2px #000;
+                        .row {
+                            justify-content: center;
+                        }
 
-                    .col-md-4 {
-                        margin-bottom: 10%;
-                        width: 100%;
+                        .col-sm-2 {
+                            width: 10%;
+                            border-right: solid 2px #000;
 
-                        a {
-                            text-decoration: none;
-                            font-size: medium;
+                            .col-md-4 {
+                                margin-bottom: 10%;
+                                width: 100%;
+
+                                a {
+                                    text-decoration: none;
+                                    font-size: medium;
+                                }
+                            }
+                        }
+
+                        .col-sm-10 {
+                            width: 80%;
+                            margin-left: 2%;
+
+                            img {
+                                height: 100%;
+                            }
                         }
                     }
                 }
-
-                .col-sm-10 {
-                    width: 80%;
-                    margin-left: 2%;
-
-                    img {
-                        height: 100%;
-                    }
-                }
             }
         }
-    }
-}

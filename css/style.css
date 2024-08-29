@@ -115,6 +115,11 @@ ul li a:hover {
   color: #C38154;
 }
 
+.container__campings .row-cols-md-3 .col .card img:hover {
+  border-radius: 100%;
+  transition: 1.5s ease-in-out;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -671,6 +676,9 @@ body {
     width: 40%;
     height: 100%;
   }
+  .container__campings .row-cols-md-3 .col .card {
+    height: 33em;
+  }
   /* Escapadas del finde */
   .escapadas .container .col-sm-3 {
     width: 20%;
@@ -801,6 +809,9 @@ body {
   .container__campings .row-cols-md-3 .col {
     width: 33%;
   }
+  .container__campings .row-cols-md-3 .col .card {
+    height: 30em;
+  }
   .escapadas .container .col-sm-3 {
     width: 15%;
   }
@@ -913,11 +924,11 @@ body {
     margin: 2% 0;
     text-align: center;
   }
-  .container__campings .card {
+  .container__campings .row-cols-md-3 .col .card {
     height: 33em;
     width: 85%;
   }
-  .container__campings .card img {
+  .container__campings .row-cols-md-3 .col .card img {
     height: 18em;
   }
   /* estilos para alojamiento */
