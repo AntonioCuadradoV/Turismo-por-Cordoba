@@ -19,6 +19,9 @@
 .container__lugares--cba {
     .container__lugares {
         text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
 
         h3 {
             font-size: large;
@@ -28,6 +31,18 @@
         img {
             width: 85%;
             height: 26vh;
+        }
+
+        p {
+            margin: 0 7.5%;
+            text-align: center;
+            padding-top: 15px;
+            font-size: small;
+
+            span {
+                display: block;
+                padding-top: 15px;
+            }
         }
 
         .container__fotos {
@@ -42,17 +57,6 @@
                 object-fit: cover;
                 padding: 0 3px 0 3px;
             }
-        }
-
-        p {
-            text-align: left;
-            padding-top: 15px;
-            font-size: small;
-        }
-
-        span {
-            display: block;
-            padding-top: 15px;
         }
     }
 }

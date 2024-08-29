@@ -304,6 +304,9 @@ body {
 
 .container__lugares--cba .container__lugares {
   text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 .container__lugares--cba .container__lugares h3 {
   font-size: large;
@@ -312,6 +315,16 @@ body {
 .container__lugares--cba .container__lugares img {
   width: 85%;
   height: 26vh;
+}
+.container__lugares--cba .container__lugares p {
+  margin: 0 7.5%;
+  text-align: center;
+  padding-top: 15px;
+  font-size: small;
+}
+.container__lugares--cba .container__lugares p span {
+  display: block;
+  padding-top: 15px;
 }
 .container__lugares--cba .container__lugares .container__fotos {
   display: flex;
@@ -324,15 +337,6 @@ body {
   height: 12vh;
   object-fit: cover;
   padding: 0 3px 0 3px;
-}
-.container__lugares--cba .container__lugares p {
-  text-align: left;
-  padding-top: 15px;
-  font-size: small;
-}
-.container__lugares--cba .container__lugares span {
-  display: block;
-  padding-top: 15px;
 }
 
 .container__campings {
@@ -350,7 +354,6 @@ body {
 .container__campings .card img {
   object-fit: cover;
   padding: 5%;
-  border-radius: 20%;
   height: 250px;
 }
 
