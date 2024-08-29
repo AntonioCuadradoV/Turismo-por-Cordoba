@@ -198,13 +198,6 @@
             .col-sm-3 {
                 width: 20%;
 
-                .col-md-12 {
-                    a {
-                        &:hover {
-                            color: #C38154;
-                        }
-                    }
-                }
             }
 
             .col-sm-9 {
@@ -239,7 +232,7 @@
                     align-items: start;
                     width: 15%;
                     padding: 0;
-                    border-right: solid 2px black;
+                    border-right: solid 2px rgba(202, 202, 202, 0.849);;
                     height: 100%;
 
                     .col-md-4 {
@@ -248,7 +241,6 @@
 
                         a {
                             text-decoration: none;
-                            color: #2F3645;
                             font-size: medium;
                         }
                     }

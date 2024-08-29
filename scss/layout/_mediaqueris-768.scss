@@ -97,21 +97,21 @@
             }
 
             img {
-                width: 69%;
-                height: 40vh;
+                width: 60%;
+                height: 35vh;
             }
 
             .container__fotos {
                 margin-top: 20px;
 
                 img {
-                    width: 35%;
+                    width: 30%;
                     height: 18vh;
                 }
             }
 
             p {
-                width: 69%;
+                width: 60%;
                 margin: 0 auto;
             }
         }
@@ -150,14 +150,14 @@
                 align-items: start;
                 width: 25%;
                 padding: 0;
-                border-right: solid 2px black;
+                border-right: solid 2px rgba(202, 202, 202, 0.849);
+                height: 100%;
 
                 .col-md-12 {
                     margin-bottom: 3%;
 
                     a {
                         text-decoration: none;
-                        color: #2F3645;
                         font-size: medium;
                     }
                 }

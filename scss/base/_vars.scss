@@ -1,0 +1,24 @@
+$t-colores: (
+    titulo: #EEEEEE,
+    subtitulos: hsl(183, 26%, 57%),
+    header: #7A3E3E,
+    fondo: #31363F,
+    descripcion: #DDE6ED,
+    link: #DDE6ED,
+
+);
+
+@each $name, $color in $t-colores {
+    .t-color-#{$name} {
+        color: $color;
+    }
+
+    .nav-#{$name} {
+        color: $color;
+    }
+
+    .container_#{$name} {
+        background-color: $color;
+    }
+}
+

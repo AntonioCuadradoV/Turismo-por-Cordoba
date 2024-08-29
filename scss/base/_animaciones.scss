@@ -71,3 +71,34 @@ ul {
         }
     }
 }
+
+.escapadas {
+    .container {
+        .col-sm-3 {
+            .col-md-12 {
+                a {
+                    &:hover {
+                        color: #C38154;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main__alojamiento {
+    .alojamientos {
+        .container {
+            .col-sm-2 {
+                .col-md-4 {
+                    a {
+
+                        &:hover {
+                            color: #C38154;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,3 +1,75 @@
+.t-color-titulo {
+  color: #EEEEEE;
+}
+
+.nav-titulo {
+  color: #EEEEEE;
+}
+
+.container_titulo {
+  background-color: #EEEEEE;
+}
+
+.t-color-subtitulos {
+  color: hsl(183, 26%, 57%);
+}
+
+.nav-subtitulos {
+  color: hsl(183, 26%, 57%);
+}
+
+.container_subtitulos {
+  background-color: hsl(183, 26%, 57%);
+}
+
+.t-color-header {
+  color: #7A3E3E;
+}
+
+.nav-header {
+  color: #7A3E3E;
+}
+
+.container_header {
+  background-color: #7A3E3E;
+}
+
+.t-color-fondo {
+  color: #31363F;
+}
+
+.nav-fondo {
+  color: #31363F;
+}
+
+.container_fondo {
+  background-color: #31363F;
+}
+
+.t-color-descripcion {
+  color: #DDE6ED;
+}
+
+.nav-descripcion {
+  color: #DDE6ED;
+}
+
+.container_descripcion {
+  background-color: #DDE6ED;
+}
+
+.t-color-link {
+  color: #DDE6ED;
+}
+
+.nav-link {
+  color: #DDE6ED;
+}
+
+.container_link {
+  background-color: #DDE6ED;
+}
+
 .card-img:hover {
   border-radius: 25%;
 }
@@ -35,6 +107,14 @@ ul li a:hover {
   padding-left: 6px;
 }
 
+.escapadas .container .col-sm-3 .col-md-12 a:hover {
+  color: #C38154;
+}
+
+.main__alojamiento .alojamientos .container .col-sm-2 .col-md-4 a:hover {
+  color: #C38154;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -47,14 +127,16 @@ h5 {
   font-weight: bold;
 }
 
+body {
+  background-color: #31363F;
+}
+
 .container_header {
-  background-color: #E6B9A6;
   position: sticky;
   top: 0;
   z-index: 100;
 }
 .container_header .navbar {
-  background-color: #E6B9A6;
   padding: 1% 0;
 }
 .container_header .navbar img {
@@ -148,7 +230,6 @@ h5 {
 .container__lugares--populares h2 {
   padding-top: 15px;
   font-size: 20px;
-  color: #C38154;
 }
 .container__lugares--populares .container-de-lugares {
   margin: 2%;
@@ -173,18 +254,16 @@ h5 {
 }
 
 .container__escapadas {
-  margin: 2%;
+  margin: 2% 2% 0 2%;
 }
 .container__escapadas h2 {
   padding-top: 15px;
   font-size: x-large;
-  color: #C38154;
 }
 .container__escapadas .container__item--escapadas h3 {
   text-align: center;
   margin-top: 5%;
   font-size: medium;
-  color: rgb(0, 149, 255);
   font-weight: 500;
 }
 .container__escapadas .container__item--escapadas .item-escapadas {
@@ -200,6 +279,7 @@ h5 {
   padding-top: 10px;
   text-align: left;
   font-size: medium;
+  margin-bottom: 0;
 }
 
 .titulo__lugares--porconcer {
@@ -371,18 +451,18 @@ h5 {
     font-size: large;
   }
   .container__lugares--cba .container__lugares img {
-    width: 69%;
-    height: 40vh;
+    width: 60%;
+    height: 35vh;
   }
   .container__lugares--cba .container__lugares .container__fotos {
     margin-top: 20px;
   }
   .container__lugares--cba .container__lugares .container__fotos img {
-    width: 35%;
+    width: 30%;
     height: 18vh;
   }
   .container__lugares--cba .container__lugares p {
-    width: 69%;
+    width: 60%;
     margin: 0 auto;
   }
   .container__campings .col {
@@ -404,14 +484,14 @@ h5 {
     align-items: start;
     width: 25%;
     padding: 0;
-    border-right: solid 2px black;
+    border-right: solid 2px rgba(202, 202, 202, 0.849);
+    height: 100%;
   }
   .escapadas .container .col-sm-3 .col-md-12 {
     margin-bottom: 3%;
   }
   .escapadas .container .col-sm-3 .col-md-12 a {
     text-decoration: none;
-    color: #2F3645;
     font-size: medium;
   }
 }
@@ -595,9 +675,6 @@ h5 {
   .escapadas .container .col-sm-3 {
     width: 20%;
   }
-  .escapadas .container .col-sm-3 .col-md-12 a:hover {
-    color: #C38154;
-  }
   .escapadas .container .col-sm-9 {
     width: 80%;
   }
@@ -617,7 +694,7 @@ h5 {
     align-items: start;
     width: 15%;
     padding: 0;
-    border-right: solid 2px black;
+    border-right: solid 2px rgba(202, 202, 202, 0.849);
     height: 100%;
   }
   .main__alojamiento .alojamientos .container .col-sm-2 .col-md-4 {
@@ -626,7 +703,6 @@ h5 {
   }
   .main__alojamiento .alojamientos .container .col-sm-2 .col-md-4 a {
     text-decoration: none;
-    color: #2F3645;
     font-size: medium;
   }
   .main__alojamiento .alojamientos .container .col-sm-10 {
@@ -711,16 +787,16 @@ h5 {
     font-size: x-large;
   }
   .container__lugares--cba .container__lugares img {
-    width: 60%;
-    height: 50vh;
+    width: 50%;
+    height: 57vh;
   }
   .container__lugares--cba .container__lugares .container__fotos img {
-    width: 30%;
-    height: 25vh;
+    width: 25%;
+    height: 27vh;
   }
   .container__lugares--cba .container__lugares p {
     font-size: medium;
-    width: 60%;
+    width: 50%;
   }
   .container__campings .row-cols-md-3 .col {
     width: 33%;
@@ -869,11 +945,7 @@ h5 {
   }
   .main__alojamiento .alojamientos .container .col-sm-2 .col-md-4 a {
     text-decoration: none;
-    color: #2F3645;
     font-size: medium;
-  }
-  .main__alojamiento .alojamientos .container .col-sm-2 .col-md-4 a:hover {
-    color: #C38154;
   }
   .main__alojamiento .alojamientos .container .col-sm-10 {
     width: 80%;

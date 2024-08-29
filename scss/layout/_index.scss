@@ -4,7 +4,6 @@
     h2 {
         padding-top: 15px;
         font-size: 20px;
-        color: #C38154;
     }
 
     .container-de-lugares {
@@ -39,12 +38,11 @@
 
 
 .container__escapadas {
-    margin: 2%;
+    margin: 2% 2% 0 2%;
 
     h2 {
         padding-top: 15px;
         font-size: x-large;
-        color: #C38154;
     }
 
     .container__item--escapadas {
@@ -53,7 +51,6 @@
             text-align: center;
             margin-top: 5%;
             font-size: medium;
-            color: rgb(0, 149, 255);
             font-weight: 500;
         }
 
@@ -71,6 +68,7 @@
                 padding-top: 10px;
                 text-align: left;
                 font-size: medium;
+                margin-bottom: 0;
             }
         }
     }
