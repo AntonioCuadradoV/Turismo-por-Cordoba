@@ -10,9 +10,10 @@
     // ------------------------------------------ animacion para la lista del header
     li {
 
-        a {
+        .nav-link {
             display: inline-block;
             position: relative;
+            color: #ffffff;
 
             &:after {
                 content: '';
@@ -36,10 +37,10 @@
                 }
             }
         }
-
     }
-}
 
+
+}
 
 
 .footer {

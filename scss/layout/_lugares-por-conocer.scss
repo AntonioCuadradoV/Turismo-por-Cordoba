@@ -19,9 +19,7 @@
 .container__lugares--cba {
     .container__lugares {
         text-align: center;
-        display: block;
-        justify-content: center;
-        align-items: center;
+        @include display-center(block);
 
         h3 {
             font-size: large;
@@ -46,9 +44,7 @@
         }
 
         .container__fotos {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include display-center(flex);
             margin-top: 5%;
 
             img {

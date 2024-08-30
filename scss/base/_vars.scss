@@ -1,10 +1,12 @@
+//map
+
 $t-colores: (
     titulo: #EEEEEE,
-    subtitulos: hsl(183, 26%, 57%),
-    header: #7A3E3E,
+    subtitulos: #22A39F,
+    header: #00ABB3,
     fondo: #31363F,
     descripcion: #DDE6ED,
-    link: #DDE6ED,
+    fd: #DDE6ED,
 
 );
 
@@ -22,3 +24,14 @@ $t-colores: (
     }
 }
 
+
+// mixin
+
+@mixin display-center($displays){
+    display: $displays;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    

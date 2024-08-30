@@ -25,9 +25,7 @@
         margin-top: 5%;
 
         ul {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include display-center(flex);
 
             li {
                 padding: 0 1rem;

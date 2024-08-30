@@ -21,9 +21,7 @@
 
         .navbar-collapse {
             margin-top: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include display-center(flex);
 
             ul {
                 padding-left: 2rem;
@@ -227,9 +225,7 @@
 
             .container {
 
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include display-center(flex);
 
                 .col-sm-2 {
                     display: block;
@@ -268,7 +264,6 @@
                         .col-md-8 {
                             width: 70%;
                         }
-
                     }
                 }
             }

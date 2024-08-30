@@ -3,9 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: "Open Sans", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4{
+    
+    font-family: "Bebas Neue", sans-serif;
+}
+
+p,
+a{
+    font-family: "roboto", sans-serif;
+}
 h5{
     font-weight: bold;
 }
