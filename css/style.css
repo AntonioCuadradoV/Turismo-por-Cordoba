@@ -189,7 +189,6 @@ body {
 .container-carrusel .carousel-inner h5 {
   font-size: large;
   text-align: center;
-  font-weight: bolder;
 }
 
 .footer {
@@ -322,11 +321,12 @@ body {
 }
 .container__lugares--cba .container__lugares h3 {
   font-size: large;
-  margin: 5%;
+  margin: 3%;
 }
 .container__lugares--cba .container__lugares img {
   width: 85%;
-  height: 26vh;
+  height: 20vh;
+  object-fit: cover;
 }
 .container__lugares--cba .container__lugares p {
   margin: 0 7.5%;
