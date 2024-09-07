@@ -137,11 +137,20 @@
                     margin-right: 12%;
                 }
             }
+
+            .col-sm-9 {
+                width: 85%;
+                .col-4 {
+    
+                    .col-md-5 {
+                        img {
+                            height: 220px;
+                        }
+                    }
+                }
+            }
         }
 
-        .col-sm-9 {
-            width: 85%;
-        }
     }
 
 

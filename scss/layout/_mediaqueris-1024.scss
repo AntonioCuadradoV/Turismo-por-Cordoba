@@ -184,7 +184,7 @@
                 width: 40%;
                 height: 100%;
 
-                .card{
+                .card {
                     height: 33em;
                 }
             }
@@ -198,15 +198,28 @@
     .escapadas {
         .container {
             .col-sm-3 {
-                width: 20%;
+                display: block;
+                align-items: start;
+                width: 25%;
+                padding: 0;
+                border-right: solid 2px rgba(202, 202, 202, 0.849);
+                height: 100%;
 
+                .col-md-12 {
+                    margin-bottom: 3%;
+
+                    a {
+                        text-decoration: none;
+                        font-size: medium;
+                    }
+                }
             }
 
             .col-sm-9 {
-                width: 80%;
+                width: 75%;
 
                 .col-4 {
-                    width: 70%;
+                    width: 100%;
 
                     .col-md-5 {
                         width: 40%;
@@ -232,7 +245,8 @@
                     align-items: start;
                     width: 15%;
                     padding: 0;
-                    border-right: solid 2px rgba(202, 202, 202, 0.849);;
+                    border-right: solid 2px rgba(202, 202, 202, 0.849);
+                    ;
                     height: 100%;
 
                     .col-md-4 {

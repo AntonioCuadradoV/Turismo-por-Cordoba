@@ -140,22 +140,25 @@
         .container {
             @include display-center(flex);
 
-            .col-sm-3 {
-                display: block;
-                align-items: start;
-                width: 25%;
-                padding: 0;
-                border-right: solid 2px rgba(202, 202, 202, 0.849);
-                height: 100%;
+            .col-sm-9 {
+                width: 100%;
+                .col-4 {
 
-                .col-md-12 {
-                    margin-bottom: 3%;
+                    .col-md-5 {
+                        width: 41%;
 
-                    a {
-                        text-decoration: none;
-                        font-size: medium;
+                        img {
+                            height: 232px;
+                        }
                     }
+
+                    .col-md-7 {
+                        width: 59%;
+                    }
+
+
                 }
+
             }
         }
     }

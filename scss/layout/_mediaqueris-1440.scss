@@ -139,9 +139,9 @@
 
         .row-cols-md-3 {
             .col {
-                width: 33%; 
+                width: 33%;
 
-                .card{
+                .card {
                     height: 30em;
                 }
             }
@@ -151,19 +151,26 @@
 
     //Escapadas por cordoba
 
-    .escapadas {    
+    .escapadas {
         .container {
-            
+
             .col-sm-3 {
                 width: 15%;
             }
-    
+
             .col-sm-9 {
                 width: 85%;
-                .col-4{
+
+                .col-4 {
                     width: 50%;
+
+                    .col-md-5 {
+                        img {
+                            height: 280px;
+                        }
+                    }
                 }
-                
+
             }
         }
     }
@@ -186,10 +193,11 @@
                         .col-md-8 {
                             width: 70%;
 
-                            h5{
+                            h5 {
                                 font-size: large;
                             }
-                            p{
+
+                            p {
                                 font-size: 15px;
                             }
                         }
