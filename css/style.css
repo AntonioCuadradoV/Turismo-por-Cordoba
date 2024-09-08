@@ -116,11 +116,6 @@ ul li a:hover {
   color: #C38154;
 }
 
-.container__campings .row-cols-md-3 .col .card img:hover {
-  border-radius: 100%;
-  transition: 1.5s ease-in-out;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -363,11 +358,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  border-radius: 25px;
 }
 .container__campings .card img {
   object-fit: cover;
   padding: 5%;
   height: 250px;
+  border-radius: 30px;
 }
 
 /* Escapadas del finde */
@@ -487,12 +484,6 @@ body {
   }
   .container__campings .col {
     width: 50%;
-  }
-  .container__campings .col .card {
-    border-radius: 20px;
-  }
-  .container__campings .col .card img {
-    border-radius: 0;
   }
   .escapadas .container {
     display: flex;

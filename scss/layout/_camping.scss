@@ -10,11 +10,13 @@
     .card{
         @include display-center(flex);
         height: 100%;
+        border-radius: 25px;
 
         img{
             object-fit: cover;
             padding: 5%;
             height: 250px;
+            border-radius: 30px;
         }
     }
 }

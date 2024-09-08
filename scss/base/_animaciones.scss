@@ -103,18 +103,3 @@ ul {
         }
     }
 }
-
-.container__campings {
-    .row-cols-md-3 {
-        .col {
-            .card {
-                img {
-                    &:hover {
-                        border-radius: 100%;
-                        transition: 1.5s ease-in-out;
-                    }
-                }
-            }
-        }
-    }
-}
