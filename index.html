@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imagenes/OIG3.K.v-Photoroom.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -105,7 +106,7 @@
         <section class="container__lugares--populares">
             <h2 class="t-color-titulo">Lugares populares de Córdoba - Argentina</h2>
             <div class="container-de-lugares">
-                <div class="item-lugar">
+                <div class="item-lugar" data-aos="fade-down">
                     <h3 class="t-color-subtitulos">El Durazno</h3>
                     <img src="imagenes/El durazno.jpg" alt="El Durazno">
                     <p class="t-color-descripcion">Distinguida por su río de aguas cristalinas y frías, El Durazno
@@ -114,14 +115,14 @@
                         nadar, restaurantes y una pintoresca casa de té en medio de un paisaje para contemplar.
                     </p>
                 </div>
-                <div class="item-lugar">
+                <div class="item-lugar" data-aos="fade-down">
                     <h3 class="t-color-subtitulos">Icho Cruz</h3>
                     <img src="imagenes/Icho cruz.jpg" alt="Icho Cruz">
                     <p class="t-color-descripcion">Con playas de arena, senderos serranos y un microclima especial para
                         diversas actividades al aire
                         libre, Icho Cruz es para disfrutar en familia o con amigos en pleno Valle de Punilla.</p>
                 </div>
-                <div class="item-lugar">
+                <div class="item-lugar" data-aos="fade-down">
                     <h3 class="t-color-subtitulos">Los Terrones</h3>
                     <img src="imagenes/los terrones.jpg" alt="Los terrones">
                     <p class="t-color-descripcion">Una obra maestra de la naturaleza. Un lugar con grandes y profundos
@@ -135,12 +136,12 @@
         <!-- Escapadas -->
 
         <section class="container__escapadas">
-            <div class="container__item--escapadas">
+            <div class="container__item--escapadas" >
                 <div>
                     <h2 class="t-color-titulo">Escapadas de fin de semana</h2>
                 </div>
                 <h3 class="t-color-subtitulos">Villa Carlos Paz</h3>
-                <div class="item-escapadas">
+                <div class="item-escapadas" data-aos="fade-down-right">
                     <img src="imagenes/Carlos paz.webp" alt="Villa-Carlos-Paz">
                     <img src="imagenes/carlos-paz2.jpg" alt="">
                     <p class="t-color-descripcion">Villa Carlos Paz es un destino turístico encantador ubicado en la
@@ -152,7 +153,7 @@
                         lago San Roque</p>
                 </div>
                 <h3 class="t-color-subtitulos">Puerto Madero</h3>
-                <div class="item-escapadas">
+                <div class="item-escapadas" data-aos="fade-down-right">
                     <img src="imagenes/puerto-madero.jpg" alt="puerto-madero">
                     <img src="imagenes/puerto-madero.jpeg" alt="puerto-madero">
                     <p class="t-color-descripcion">Puerto Madero es un barrio emblemático de Buenos Aires, ubicado junto
@@ -165,7 +166,7 @@
                         nocturna.</p>
                 </div>
                 <h3 class="t-color-subtitulos">Parque Provincial Aconcagua</h3>
-                <div class="item-escapadas">
+                <div class="item-escapadas" data-aos="fade-down-right">
                     <img src="imagenes/aconcagua2.jpg" alt="La-cumbre">
                     <img src="imagenes/aconcagua3.jpg" alt="buen-cauda-cumbre">
                     <p class="t-color-descripcion">El Parque Provincial Aconcagua es un área protegida en los Andes
@@ -216,6 +217,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
 </body>
 
 </html>
