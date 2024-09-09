@@ -284,4 +284,12 @@
             }
         }
     }
+
+    //galeria
+
+    .container-galeria {
+        display: grid;
+        grid-template-rows: repeat(2, 250px);
+        grid-template-columns: repeat(3, 250px);
+    }
 }

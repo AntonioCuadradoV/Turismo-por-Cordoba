@@ -172,4 +172,16 @@
             }
         }
     }
+
+    // galeria
+    .galeria{
+        p{
+            margin: 3% 12%;
+        }
+    }
+    .container-galeria {
+        display: grid;
+        grid-template-rows: repeat(2, 250px);
+        grid-template-columns: repeat(2, 250px);
+    }
 }
