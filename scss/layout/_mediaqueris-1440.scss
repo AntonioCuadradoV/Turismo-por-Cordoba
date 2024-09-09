@@ -183,22 +183,26 @@
 
                 .col-sm-10 {
                     .col-4 {
-                        width: 50%;
-                        margin: 0;
 
                         .col-md-4 {
                             width: 30%;
+
+                            img {
+                                height: 220px;
+                            }
+
                         }
 
                         .col-md-8 {
                             width: 70%;
 
+
                             h5 {
-                                font-size: large;
+                                font-size: larger;
                             }
 
                             p {
-                                font-size: 15px;
+                                font-size: 16px;
                             }
                         }
 

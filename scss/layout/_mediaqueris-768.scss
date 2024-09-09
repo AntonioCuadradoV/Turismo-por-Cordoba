@@ -155,4 +155,21 @@
             }
         }
     }
+
+    //alojamientos
+
+    .main__alojamiento {
+
+        .alojamientos {
+            .container {
+                .col-sm-10 {
+                    .col-4 {
+                        img {
+                            height: 220px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
